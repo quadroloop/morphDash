@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MorphDash</title>
+	<link rel="stylesheet" href="./css/mdb.css">
+	<link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/morphDash.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+</head>
+<body class="dark-edition">
+	<div class="wrapper ">
+    <div class="sidebar" data-color="purple" data-background-color="black" data-image="poly.jpg">
+      <div class="logo">
+      	<center>
+           <img src="./img/logo.png" style="width: 70px">
+        </center>   
+      </div>
+       <!-- statusbar  -->
+                        <div id="sbar" class="p-1 mx-3 my-2" title="Device is Offline"></div>
+                        <!-- status bar -->
+
+                        <div id="online" class="online  mx-3" title="Device is Online">
+                         <div class="load-barx">
+                            <div class="barx"></div>
+                            <div class="barx"></div>
+                            <div class="barx"></div>
+                            <div class="barx"></div>
+                         </div>
+                       </div>
+
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item active  ">
+            <a class="nav-link" >
+              <i class="fa fa-th"></i>
+              <p>Dashboard</p>
+            </a>
+         </li>  
+
+          <li class="nav-item">
+            <a class="nav-link" >
+              <i class="fa fa-list"></i>
+              <p>Data Logs</p>
+            </a>
+         </li>  
+
+          <li class="nav-item">
+            <a class="nav-link" >
+              <i class="fa fa-bars"></i>
+              <p>About Project</p>
+            </a>
+         </li>  
+
+      
+         
+        </ul>
+        <a href="https://github.com/quadroloop/morphDash">
+    <button class="btn-hover color-7 fixed-bottom">
+          <i class="fa fa-star mr-2"></i> Star on GitHub
+    </button> 
+        </a>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top " id="navigation-example">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <a class="navbar-brand" href="javascript:void(0)">Dashboard</a>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+
+          	 <!-- rt Chart -->
+            <div class="col-md-12">
+            	<div class="card p-3">
+                 <h4 class="text-muted"><i class="fa fa-line-chart text-info"></i> Temperature and Humidity Chart</h4>
+                    <center>
+                        <canvas id="chart" style="width:100%; height:250px"></canvas>
+                    </center>
+            	</div>
+            </div>
+
+             <!-- Humidity -->
+            <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-info">
+                  <span class="text-heading">DHT 22 Humidity Reading</span>
+                </div>
+                <div class="card-body">
+                	<center>
+                	<h1 class="value my-3" id="hum">53.3 %</h1>
+                    </center>
+                  <h4 class="card-title">Humidity</h4>
+                  <p class="card-category">
+                  	  Amount of atmospheric moisture
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-info"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
+
+             <!-- Temperature -->
+             <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-danger">
+                  <span class="text-heading">DHT 22 Temperature Reading</span>
+                </div>
+                <div class="card-body">
+                	<center>
+                	<h1 class="value my-3" id="temp">60.3 %</h1>
+                    </center>
+                  <h4 class="card-title">Temperature</h4>
+                  <p class="card-category">
+                  	  Amount of Heat
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-danger"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Ultrasonic Sensor -->
+            <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-warning">
+                  <span class="text-heading">Ultrasonic Sensor Reading</span>
+                </div>
+                <div class="card-body">
+                	<center>
+                	<h1 class="value my-3" id="us">5.2 cm</h1>
+                    </center>
+                  <h4 class="card-title">Distance</h4>
+                  <p class="card-category">
+                  	  Distance Measurement using sound
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-warning"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+
+            <!-- Gas Sensor -->
+            <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-success">
+                  <span class="text-heading">Gas Sensor</span>
+                </div>
+                <div class="card-body">
+                	<center>
+                	<h1 class="value my-3" id="gas">Normal</h1>
+                    </center>
+                  <h4 class="card-title">Gas</h4>
+                  <p class="card-category">
+                  	  Detects Abundance of Gases not usually present in plain air.
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-success"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- sound chart -->
+             <div class="col-md-8">
+            	<div class="card p-3">
+                 <h4 class="text-muted"><i class="fa fa-line-chart text-info"></i> Sound Sensor</h4>
+                    <center>
+                        <canvas id="soundchart" style="width:100%; height:200px"></canvas>
+                    </center>
+            	</div>
+            </div>
+
+
+
+             <!-- Capacitive Sensor -->
+             <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-primary">
+                  <span class="text-heading">Capacitive Touch Sensor</span>
+                </div>
+                <div class="card-body">
+                	<center>
+                	<h1 class="value my-3" id="ct">0</h1>
+                    </center>
+                  <h4 class="card-title">Touch Sensor</h4>
+                  <p class="card-category">
+                  	  Responds to touch 
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-primary"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Flame Sensor -->
+            <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-primary">
+                  <span class="text-heading">Flame Sensor</span>
+                </div>
+                <div class="card-body">
+                	<center>
+                	<h1 class="value my-3" id="fs">0</h1>
+                    </center>
+                  <h4 class="card-title">Flame</h4>
+                  <p class="card-category">
+                  	  Detects presence of fire using light
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-primary"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Rain Drop Sensor -->
+            <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-primary">
+                  <span class="text-heading">Rain Drop Sensor</span>
+                </div>
+                <div class="card-body">
+                	<center>
+                	<h1 class="value my-3" id="fs">0</h1>
+                    </center>
+                  <h4 class="card-title">Rain Drop</h4>
+                  <p class="card-category">
+                  	  Detects presence of water, or rain
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-primary"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
+
+
+
+
+           
+
+
+           
+          </div>
+      </div>
+      
+ 
+  <script src="./js/mdb.js"></script>
+  <script src="./js/smoothie.js"></script>
+  <script src="./js/morphDash.js"></script>
+
+</body>
+</html>

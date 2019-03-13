@@ -1,0 +1,20 @@
+{
+  "name": "io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chokidar": "^2.0.4",
+    "express": "^4.16.3",
+    "lowdb": "^1.0.0",
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryce Mercines",
+  "license": "ISC"
+}
