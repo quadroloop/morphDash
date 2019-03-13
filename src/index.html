@@ -32,27 +32,28 @@
 
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active  ">
+          <li class="nav-item active" onclick="nav('dashboard',this)">
             <a class="nav-link" >
               <i class="fa fa-th"></i>
               <p>Dashboard</p>
             </a>
          </li>  
 
-          <li class="nav-item">
-            <a class="nav-link" >
+          <li class="nav-item" onclick="nav('datalogs',this)">
+            <a class="nav-link">
               <i class="fa fa-list"></i>
               <p>Data Logs</p>
             </a>
          </li>  
 
-          <li class="nav-item">
+          <li class="nav-item" onclick="nav('about',this)">
             <a class="nav-link" >
               <i class="fa fa-bars"></i>
               <p>About Project</p>
             </a>
          </li>  
 
+     
       
          
         </ul>
@@ -68,13 +69,13 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top " id="navigation-example">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="javascript:void(0)">Dashboard</a>
+            <a class="navbar-brand" id="cpage">Dashboard</a>
           </div>
         </div>
       </nav>
       <!-- End Navbar -->
       <div class="content">
-        <div class="container-fluid">
+        <div class="container-fluid" id="dashboard">
           <div class="row">
 
           	 <!-- rt Chart -->
@@ -95,7 +96,7 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="hum">53.3 %</h1>
+                	<h1 class="value my-3"><span id="hum">0</span> %</h1>
                     </center>
                   <h4 class="card-title">Humidity</h4>
                   <p class="card-category">
@@ -116,7 +117,7 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="temp">60.3 %</h1>
+                	<h1 class="value my-3"><span id="temp">0</span> <span style="text-transform: lowercase;">℃</span></h1>
                     </center>
                   <h4 class="card-title">Temperature</h4>
                   <p class="card-category">
@@ -138,7 +139,7 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="us">5.2 cm</h1>
+                	<h1 class="value my-3" id="us">0 cm</h1>
                     </center>
                   <h4 class="card-title">Distance</h4>
                   <p class="card-category">
@@ -194,7 +195,7 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="ct">0</h1>
+                	<h1 class="value my-3">☟ <span id="ct">0</span></h1>
                     </center>
                   <h4 class="card-title">Touch Sensor</h4>
                   <p class="card-category">
@@ -216,11 +217,11 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="fs">0</h1>
+                	<h1 class="value my-3 text-muted" id="fs">🔥0</h1>
                     </center>
                   <h4 class="card-title">Flame</h4>
                   <p class="card-category">
-                  	  Detects presence of fire using light
+                  	  Senses presence of fire using light
                   </p>
                 </div>
                 <div class="card-footer">
@@ -237,7 +238,7 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="fs">0</h1>
+                	<h1 class="value my-3" id="rd">☔ 0</h1>
                     </center>
                   <h4 class="card-title">Rain Drop</h4>
                   <p class="card-category">
@@ -249,19 +250,339 @@
                 </div>
               </div>
             </div>
+          
+      
 
+      <!-- Hall Effect Magnetic Sensor -->
+             <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-primary">
+                  <span class="text-heading">Hall Effect Magnetic Sensor</span>
+                </div>
+                <div class="card-body">
+                  <center>
+                  <h1 class="value my-3">☟ <span id="he">0</span></h1>
+                    </center>
+                  <h4 class="card-title">Magnet</h4>
+                  <p class="card-category">
+                      Responds to magnetic fields 
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-primary"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
 
-
+              <!-- Light Sensor -->
+             <div class="col-xl-4 col-lg-12">
+              <div class="card card-chart">
+                <div class="card-header card-header-primary">
+                  <span class="text-heading">Light Sensor</span>
+                </div>
+                <div class="card-body">
+                  <center>
+                  <h1 class="value my-3">☟ <span id="ls">0</span></h1>
+                    </center>
+                  <h4 class="card-title">Light</h4>
+                  <p class="card-category">
+                      Responds to light 
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-muted"><i class="fa fa-circle text-primary"></i> Updates Every 2s</span>
+                </div>
+              </div>
+            </div>
 
            
 
-
-           
+           <!-- end of sensor widgets -->
           </div>
+          </div>
+
+      <div id="datalogs" style="display: none">
+        <div class="content container-fluid">
+           <p class="text-info"><i class="fa fa-circle"></i> The Following tables are the summary of data logged for each sensor.</p>
+           <hr>
+              <!-- table for database -->
+                    <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Humidity & And Temperature Sensor</h4>
+                  <p class="card-category"> DHT22 Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th>Humidity</th>
+                        <th>Temperature</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                      </thead>
+                      <tbody id="th">
+                           <tr>
+                             <td>1</td>
+                             <td>50%</td>
+                             <td>32.2 ℃</td>
+                             <td>11/22/33</td>
+                             <td>11:30 AM</td>
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Ultrasonic Range</h4>
+                  <p class="card-category"> Ultrasonic Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th> Distance</th>
+                        <th> Date </th>
+                        <th> Time</th>
+
+                      </thead>
+                      <tbody id="dt">
+                           <tr>
+                             <td>1</td>
+                             <td>3.15 cm</td>
+                             <td>44/55/66</td>
+                             <td>3:30 PM</td>
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Gas</h4>
+                  <p class="card-category">Gas Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th>Gas State</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                      </thead>
+                      <tbody id="gs">
+                           <tr>
+                             <td>1</td>
+                             <td class="text-danger">WARNING</td>
+                             <td>3/13/19</td>
+                             <td>6:30 AM</td>
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Sound Sensor</h4>
+                  <p class="card-category"> Sound Sensor Reading</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th>Sensor Reading</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                      </thead>
+                      <tbody id="th">
+                           <tr>
+                             <td>1</td>
+                             <td>44.3</td>
+                             <td>3/20/19</td>
+                             <td>9:45 PM</td>                                               
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Touch Sensor</h4>
+                  <p class="card-category"> Capacitive Touch Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th> Sensor Reading</th>
+                        <th>Date</th>
+                        <th>Time</th>                     
+                      </thead>
+                      <tbody id="th">
+                           <tr>
+                             <td>1</td>
+                             <td>22.3</td>
+                             <td>8/22/20</td>
+                             <td>1:17 PM</td>                            
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Flame</h4>
+                  <p class="card-category"> Flame Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th> Sensor Reading</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                      </thead>
+                      <tbody id="th">
+                           <tr>
+                             <td>1</td>
+                             <td>50%</td>
+                             <td>4/15/19</td>
+                             <td>5:25 AM</td>                           
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Rain Drop</h4>
+                  <p class="card-category"> Rain Drop Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th> Sensor Reading</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                      </thead>
+                      <tbody id="th">
+                           <tr>
+                             <td>1</td>
+                             <td>50%</td>
+                             <td>10/10/19</td>
+                             <td>2:36 PM</td>
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Magnet</h4>
+                  <p class="card-category"> Hall Effect Magnetic Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th> Sensor Reading</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                      </thead>
+                      <tbody id="th">
+                           <tr>
+                             <td>1</td>
+                             <td>50%</td>
+                             <td>12/34/56</td>
+                             <td>8:23 AM</td>
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card mb-3">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Light</h4>
+                  <p class="card-category"> Light Sensor</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>Log No.</th>
+                        <th> Sensor Reading</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                      </thead>
+                      <tbody id="th">
+                           <tr>
+                             <td>1</td>
+                             <td>50%</td>
+                             <td>3/22/19</td>
+                             <td>10:20 AM</td>
+                          </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+              <!-- table for db -->
       </div>
+
+         <div id="about" style="display: none">
+           <div class="content container-fluid">
+           <h4 class="text-info">About the Project</h4>
+           <p class="text-muted">
+              <strong>MorphDash</strong> is a Realtime dashboard for displaying sensor data for a Python based Rasberry Pi 3 Model B+ Sensor Interfacer, this dashboard is currently interfaced with 9 sensors in total. Which are as follows:</p>
+              <ol class="text-info">
+                <li>Temperature and Humidity Sensor</li>
+                <li>Ultrasonic Sensor</li>
+                <li>Capacitve Touch Sesor</li>
+                <li>Flame Sensor</li>
+                <li>Hall Effect Magnetic Sensor</li>
+                <li>Sound Sensor</li>
+                <li>Raindrop Sensor</li>
+                <li>Gas Sensor</li>
+                <li>Light Sensor</li>
+              </ol>
+              <hr>
+       </div>
+      </div>
+
       
  
-  <script src="./js/mdb.js"></script>
+  <!-- <script src="./js/mdb.js"></script> -->
   <script src="./js/smoothie.js"></script>
   <script src="./js/morphDash.js"></script>
 
