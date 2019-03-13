@@ -43,6 +43,16 @@ function guid() {
 // new api functions here
 
 
+var route = "/sendData";
+app.get(route,(req,res)=>{
+  var sensorType = req.query.sensor;
+  var sensorData = req.query.sensorData;
+  var msg = `${sensorType}:${sensorData}`;
+   res.send("ok");
+   console.log(msg);
+})
+
+
 
 var port = 3000;
 
