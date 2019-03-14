@@ -1,37 +1,8011 @@
 {
-  "users": [
+  "sensors": [
+    "dht22",
+    "ultrasonic",
+    "gas",
+    "capacitive",
+    "flame",
+    "light",
+    "raindrop",
+    "sound",
+    "halleffect"
+  ],
+  "dht22": [
     {
-      "id": "490fb03d-72b0-4e81-91f8-6061b5cf972f",
-      "name": "Bryce Mercines",
-      "email": "test@gmail.com",
-      "password": "1234"
+      "id": 1,
+      "humidity": "34.5",
+      "temperature": "32.5",
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    },
+    {
+      "id": "63fcfb8e-9052-43e7-be57-4038213a1905",
+      "humidity": "48.2000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "01c84238-2ce7-4a14-92a7-ec1bbceebad6",
+      "humidity": "47.2999992371",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "3e31f108-cd1c-4a5d-9219-cfae17ae5ac0",
+      "humidity": "47.2000007629",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "475daca4-d16c-4507-9e9b-cdef497f1c2c",
+      "humidity": "47.0999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "d236c3ce-3cd4-42f1-bdc1-c71098cfa742",
+      "humidity": "47.2000007629",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "bc74d911-f33a-40be-8e9c-fd8b87c9f6f5",
+      "humidity": "47.2000007629",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "b29a858e-342f-4ec9-afaf-8bdc700fa904",
+      "humidity": "47.2999992371",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "945d8494-8550-4ba3-9899-3895f997c943",
+      "humidity": "47.2999992371",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "306b3fe1-a84e-4c15-9fe1-7037cc261eb7",
+      "humidity": "47.5999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "52678334-e40e-4963-8f80-2a33cde5db09",
+      "humidity": "47.9000015259",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "4505b9cf-bbb3-4c3a-addb-69b3f4dc2485",
+      "humidity": "47.5999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "4dc23bf0-d1f5-4ea3-99b9-ebd9fd28d70b",
+      "humidity": "47.5999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "e26523b8-4ae5-47c6-bfae-4c578e50f122",
+      "humidity": "47.5999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "5fa433c9-9b61-4237-bbde-9f6b9283e34a",
+      "humidity": "47.5999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "8030ecc1-8ef2-44d5-9fed-404dfd6041d1",
+      "humidity": "47.5999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "c2989973-0cbc-4208-8f3f-c5c53c490a46",
+      "humidity": "47.5999984741",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "fa868e10-3d34-441e-a399-39170a32830d",
+      "humidity": "48.0",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "254722f2-b574-4cb7-b6f2-701d141ad760",
+      "humidity": "47.9000015259",
+      "temperature": "31.5",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "0024b556-da15-4b06-81ee-994c44715af6",
+      "humidity": "48.2000007629",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "77995f8e-7104-4dfe-a4a6-6d748d519c77",
+      "humidity": "48.2999992371",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "4c046af4-9097-48dc-9c30-a7caca759c04",
+      "humidity": "48.2999992371",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "e8a2fcd5-1696-4519-87d2-cffcda11b879",
+      "humidity": "48.2000007629",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "98f8718c-be3d-427c-9c31-470e063e6ea1",
+      "humidity": "48.5",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "6761a6a5-5fe2-43c2-9714-f090306abb2c",
+      "humidity": "48.5999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "f1d90c30-0f34-43fb-8d9e-0a1322c52c81",
+      "humidity": "48.9000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "85836fbc-7789-4369-b23a-3b4da4da82e7",
+      "humidity": "48.9000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "403bcfb1-d076-4991-a75a-85949ce0f682",
+      "humidity": "48.9000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "42ad2d77-16bb-4d85-9964-065b1803aaf4",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "b2e48ec0-b280-4e83-812d-538e1921e7ae",
+      "humidity": "48.5999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "5bc265db-3b5a-40ce-b479-232c6cdc827b",
+      "humidity": "48.5999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "e7c722ba-d2c8-45a1-9e07-c67886e53111",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "15f0864c-a559-43f8-9137-0db53eed0484",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "a7f6c4c1-533e-4470-847a-96b6e257258d",
+      "humidity": "48.5",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "28d70465-2dcc-494f-843f-3c424d59e338",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "5482ad4d-38fb-4f98-9fdb-f367275cac56",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "f8e4a04b-93e4-4e15-bf40-f7cc8d06f78c",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "b11128b1-1dcc-449e-b965-f3aad0b27d2f",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "0c0494fb-b673-4435-bcf1-56e25c1b3897",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "321b256c-c4be-4b84-b917-fa0eecc0ba76",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "04b29162-819d-4334-a126-d85137c6762d",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "2f7b71df-603d-4678-9f6b-32c69aacb668",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "c1bacab8-99c3-41b7-b9f1-0a4460449309",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "2bd8c49e-a9ef-41d5-b773-480d8dd8a03a",
+      "humidity": "48.5",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "fa709bbe-939c-426a-bbc5-5a17cc335ed9",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "88a85ca9-1f49-4221-920d-991e8550aed5",
+      "humidity": "48.5",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "190fcc4d-3c5d-40b3-8ce6-3f667558fd69",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "041ccc65-3212-4792-856a-ae580ed0d9fd",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "c7728368-f30e-463c-a2e2-3a72ff553743",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "32c279ed-4bc8-4f0d-983d-d617e8cfe5d8",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "0f35d52e-89be-48e6-9946-73596b0d7885",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "169b079c-4f57-407f-84c2-c179e34af21b",
+      "humidity": "48.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "8aa0ccb0-bf50-42ea-9045-6914d8309d5d",
+      "humidity": "48.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "928cb376-3a87-4ce0-811f-fe810b7b9392",
+      "humidity": "48.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "cd1c0838-dc3d-4e0b-904f-ada0be9b6325",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "089b6a45-8e8f-452d-88ad-51572f54ef16",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "a8d275d6-c17f-4e77-8af4-064920b29076",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "93423e18-34e5-4303-9c55-b87b3b435c55",
+      "humidity": "48.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "edee930a-7060-4e35-98a4-53ee0f54cdc4",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "c998967a-002e-42dd-90e9-3a99a4e62509",
+      "humidity": "48.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "572b1fc9-dc18-491e-9e41-5679b0b22b52",
+      "humidity": "48.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "436ba130-813c-446a-896d-0906bb498099",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "6e0926c4-1abb-4b84-9f9f-f53fdbdf5bd0",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "09b9d282-45fb-4aa3-8b63-651d734fe1d2",
+      "humidity": "48.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "120dd638-b98d-4100-85eb-a77aec49a1a3",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "e8597137-0547-4713-bd7a-404e3793aab0",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "629c8dad-9688-4848-b7c7-3c82cfcd9db6",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "070aa1ea-ce4a-423d-8689-04415e840747",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "29d7d203-e163-4b07-b080-9b2e6ada45b9",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "dae1aed1-1fe7-4634-9f18-21f486031e2b",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "9dbfac92-30f0-418a-beda-e8a0dd5e0c17",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "c6b3c6b5-c3b4-48d3-93b9-884191022394",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "8f226ab9-ebb9-4dc9-8630-22886c1efbe6",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "cfe429ae-bce4-4f46-ae3d-7a6ddd3652e8",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "9712048f-462c-49f1-888b-f54b066237eb",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "6ee8511c-c6c4-4af5-b8f2-84f8b009417d",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "9db87dc8-18cf-4f25-bfcb-cd9156a472bc",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "fb46c92d-ee5a-4da5-94f5-60e792f8d667",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "7186f54a-18db-4e0a-8968-4c9f3e4398fb",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "8fd876d5-f6b7-4203-ae2a-dfd555d6f0e1",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "8962946d-fd1c-401b-afce-5f89b9a53d24",
+      "humidity": "48.2999992371",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "e9e78e45-4d3d-46a8-9df3-1f8cf1a359a7",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "c56d12e8-802f-4af1-8591-236fbbf106ae",
+      "humidity": "48.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "fb5bc171-98e5-4504-9326-8c44efd467d9",
+      "humidity": "48.2000007629",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "918aa89e-2a29-4519-b4ab-3fc62f1ed79b",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "b49cfc9f-2542-45f8-b165-d54c7242a315",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "c32f51d3-8a60-4c71-8caa-46954f272908",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "d8f6fb16-c1d5-4cbd-90e0-2fdf57c770b1",
+      "humidity": "48.2000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "93f4c7ba-79fc-4cde-bee5-ece7ea929ae5",
+      "humidity": "48.0999984741",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "d6f4b4da-7634-4e10-ae9b-b50e7773333c",
+      "humidity": "48.0999984741",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "f8329bf2-8b5c-4bca-af97-ac7ef7c0d3b0",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "8773cf6d-78b6-45b9-b57a-eb8cd727ab81",
+      "humidity": "48.0999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "c10204cb-ded0-4e10-aea5-f0811ad1cd27",
+      "humidity": "48.5",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "41b7a94f-f970-49f5-8c14-2e11b4eb7e21",
+      "humidity": "48.5",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "11b6f24d-3056-4679-85f4-8af5826c44d3",
+      "humidity": "48.5999984741",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "2c6718c9-dcb1-4826-b8a7-d9a97c248c00",
+      "humidity": "48.5999984741",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "6bc4808c-5e3c-4798-8f96-ddd3e0cece39",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "9ad398ae-b3b4-40c2-a822-43ce24f5e8d6",
+      "humidity": "48.7000007629",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "3cd218f9-f092-40ee-8cbf-07bb231a7227",
+      "humidity": "49.0",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "c21d48f0-c78b-4320-a9c6-424f20766401",
+      "humidity": "48.7999992371",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "694acb3d-01c7-489d-a3a2-1fd9c4703fe3",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "315e7cab-13ad-42c9-846e-488016b53e5f",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "54d01db6-0c89-4cf6-9368-e28f0743b00f",
+      "humidity": "48.9000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "dd9905b5-b1b7-414f-89af-30e1960c35c8",
+      "humidity": "48.9000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "4510d915-781d-4432-9c18-1188a2a0527d",
+      "humidity": "48.9000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "982d3413-ffd0-47a0-bcee-acd6031db4bf",
+      "humidity": "48.7000007629",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "4fa8c621-dbf3-4f3f-8391-570042cb7cea",
+      "humidity": "48.5999984741",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "81d2f322-2564-4b51-bcba-83eef9e6006e",
+      "humidity": "48.7000007629",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "9c451c62-4b4b-48e5-9bb2-1af665b556b1",
+      "humidity": "49.2000007629",
+      "temperature": "31.6000003815",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "1e6f73b5-3c4a-408c-966f-6faeff6713ff",
+      "humidity": "49.4000015259",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "91800220-8841-415c-a787-5f708b0cf6a8",
+      "humidity": "49.5",
+      "temperature": "31.7000007629",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "49b5403e-2030-428f-bfa2-096aa8fcdf0d",
+      "humidity": "51.4000015259",
+      "temperature": "31.7999992371",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "6c795907-ab6c-43ba-996b-fd5b930cbb5e",
+      "humidity": "51.4000015259",
+      "temperature": "31.7999992371",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "bf88f769-c7e3-4651-9f98-9b35bbd0fdad",
+      "humidity": "50.9000015259",
+      "temperature": "31.7999992371",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "5a2c9543-b02c-4421-9d61-5c74a7aa3182",
+      "humidity": "51.2000007629",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "cf36c2f0-0033-4f93-bcb7-05d504a44fea",
+      "humidity": "52.0999984741",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "771c0278-2cb4-4fd0-b701-17d330e55e6a",
+      "humidity": "52.0",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "59553ee2-2afe-4eb7-a45b-0c6e80d64fda",
+      "humidity": "51.7999992371",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "63b349aa-6ab1-4454-b6af-29c5ddcab4c4",
+      "humidity": "51.7999992371",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "68f6b9b5-cb70-4eb9-adae-b3adcfea5172",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "60bf94f3-db1c-4e56-9971-ab07c2c2e497",
+      "humidity": "51.7999992371",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "42c64b1d-a2bf-4770-b93c-06aa007d7f11",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "7c5428ae-60d8-444a-b126-5ed372784c22",
+      "humidity": "51.7999992371",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "7bd7ded1-9f90-4caf-bde6-90b147017ffc",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "a629554f-c084-4ae4-9f4f-5b8c99c7a09e",
+      "humidity": "52.2999992371",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "576de91a-d140-4594-a458-5b3a4b6a3f51",
+      "humidity": "52.2000007629",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "51200d52-a094-48e6-9928-de329cb7aec5",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "4a713e53-3f1f-4baa-b674-6dbb2920f778",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "66e02945-da22-4c3a-92e7-2c4598bd12e9",
+      "humidity": "52.0999984741",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "a188922e-bea2-4b69-a0cd-68bacf57f126",
+      "humidity": "52.0999984741",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "0336727c-4eef-41d4-ada6-8c40e51981ce",
+      "humidity": "52.2000007629",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "f244b0b4-0fe0-40bf-9e2e-5daed963fbf5",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "a0c3f5db-9ed2-44fe-bd8b-c0c998372be4",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "f8c3d31b-58f7-4e21-8420-50455d85769d",
+      "humidity": "51.9000015259",
+      "temperature": "31.8999996185",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "8d7e457f-8e8f-4551-bd7f-1fd7c44f94d3",
+      "humidity": "44.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "f0a9b4d7-c36b-4397-989d-6d36dab2761b",
+      "humidity": "44.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "1e9d1d46-56b8-4aaf-b466-a3699488bded",
+      "humidity": "44.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "1eca2721-4d1d-46de-ac1a-bd4147b59a74",
+      "humidity": "44.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "7fdd709b-6b3b-433d-bd5c-9d3c966e83a3",
+      "humidity": "44.0999984741",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "a814e4ae-f7cf-4595-8808-8f7469b2353c",
+      "humidity": "44.9000015259",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "b147b4f6-25c6-4b59-9a2b-20606c5852b7",
+      "humidity": "45.7999992371",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "9955f3c7-5427-43b3-8d0b-806ae8d25fd8",
+      "humidity": "45.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "594dbeef-0b4c-4ec2-8dfa-9fdaaa6d0b3e",
+      "humidity": "44.9000015259",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "a348fd46-d53a-4ec4-abaa-436e2b9660e8",
+      "humidity": "46.4000015259",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "5cad2516-86ff-4f81-b7ba-7d5132f50987",
+      "humidity": "45.7999992371",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "0bda0b29-bfb5-4ca6-baee-941fbea7573d",
+      "humidity": "45.2000007629",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "65599414-d353-46e5-8346-2784ee1a91b0",
+      "humidity": "44.9000015259",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "73c33b34-3dc5-4d74-86c5-e629010207c6",
+      "humidity": "44.7000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "20442d47-52a4-4701-93f7-708c8097266d",
+      "humidity": "44.5",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "ce879cd7-e68f-4623-a465-7217e95ca10d",
+      "humidity": "44.4000015259",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "61679049-6236-4164-af43-bc2d0b589785",
+      "humidity": "44.5",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "088882e6-3a4a-463b-b16a-4d164fdedb20",
+      "humidity": "44.5",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "0d8c5663-9373-4167-86f7-74a976247434",
+      "humidity": "44.5",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "ce371098-f334-4612-8cfa-cc7458c06244",
+      "humidity": "45.0",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "baf2b84d-c3b0-4d99-9d24-e07e2939ce01",
+      "humidity": "44.7000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "4a99303d-f7be-489b-acb9-74e8d25dc70a",
+      "humidity": "44.5",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "1041c95d-fa7c-4273-8a58-dbc4b73b8cf0",
+      "humidity": "44.5",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "cd96b3a2-d163-4b13-8181-2dfb616f75cb",
+      "humidity": "44.4000015259",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "43a08904-9edd-45c7-8331-746141685c32",
+      "humidity": "44.4000015259",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "d9c3571f-5fac-4e77-91cb-f6301812f8dc",
+      "humidity": "44.2999992371",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "22dc2c6c-b029-4b8e-88cc-d6c7f0660e93",
+      "humidity": "44.2999992371",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "d282e6a5-8a96-466e-9a5d-f365552768d7",
+      "humidity": "44.2000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "1e4fa59a-7d01-4dd1-a035-deb6686b437d",
+      "humidity": "44.0999984741",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "3f4cd814-cff3-4107-81bc-1ccab59d678c",
+      "humidity": "44.0",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "fa5dfd62-9ad3-42b9-86f2-c96b4cf1d968",
+      "humidity": "43.9000015259",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "ddf07a68-8617-4f3b-b00d-f9b9931926da",
+      "humidity": "43.9000015259",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "2109ced1-2958-427b-996f-f0281dd1cc84",
+      "humidity": "43.9000015259",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "b57ba942-2186-4570-abc7-7370adab3827",
+      "humidity": "43.7999992371",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "22a1a788-1116-4410-8ec7-1bc4fee15f89",
+      "humidity": "43.7000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "cd54c020-e2ee-4215-b8a8-a50890b67764",
+      "humidity": "43.9000015259",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "ecc9d96f-37a4-49cb-92b2-d277ce5455c1",
+      "humidity": "44.2000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "e9552a3d-7b24-4ba5-97b9-da3ddf651ab8",
+      "humidity": "44.2000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "113b225c-20cf-4c97-974d-e9b09b869a87",
+      "humidity": "44.2999992371",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "ca3272f8-08a9-4914-8a2a-b61189f405bc",
+      "humidity": "44.0999984741",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "44cd7764-a5e1-4116-9f21-d46c68b37ed7",
+      "humidity": "44.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "95ef2791-6410-4796-a25d-76777500187f",
+      "humidity": "44.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "752f85fb-9999-4a9c-af40-a8fe79e46e35",
+      "humidity": "44.2000007629",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "50b47ca0-3e6d-445f-9a39-294514f84edb",
+      "humidity": "44.0999984741",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "445f4ff3-ab47-436e-9f5c-40d41edb33e5",
+      "humidity": "44.0",
+      "temperature": "31.2000007629",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "6329c33d-998c-483d-9cbd-7ace5a4a2291",
+      "humidity": "44.5",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "4c3dc870-72e1-4cab-a4d9-a43bfee996fe",
+      "humidity": "44.5999984741",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "7a04cc47-c844-4c1d-a5c7-3963cfab4727",
+      "humidity": "45.0999984741",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "2eaec5e7-d326-4d49-abb4-bfe4d94a0863",
+      "humidity": "45.0",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "68fa3a6c-933d-470b-9d50-780eb5e4a8d4",
+      "humidity": "44.4000015259",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "ec0bf1c3-bae0-4ae8-8b20-7259668c6f3e",
+      "humidity": "44.2000007629",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "e45ed457-9c79-4c5c-a62f-2054deb1d5e1",
+      "humidity": "44.0999984741",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "b8ea9812-03ea-405e-b1d6-65eead96b582",
+      "humidity": "44.0",
+      "temperature": "31.2999992371",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "6d2d13af-3ef5-4510-ab31-76ea4ff077e4",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "b23ab916-b60a-4dd4-aaf8-f924266a0bd7",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "9a112e15-44be-47fe-a92f-cd36f2114cbb",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "ce96d976-1546-47d5-b54a-10d99f50d361",
+      "humidity": "42.5",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "18e30cfc-83c1-4d31-9509-e16c96716104",
+      "humidity": "42.2999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "43062c0f-2a86-47bc-9d9e-5f8368b5ba7f",
+      "humidity": "42.2999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "6fc2605c-cecf-4e43-8d2b-47bef844306f",
+      "humidity": "42.2999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "fd47e13c-83c7-4f68-8e95-4130c013077b",
+      "humidity": "42.4000015259",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "62d80510-a59d-4f29-933b-fa5498676541",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "309e6d41-7158-4fad-8a77-762da915c426",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "0582b890-27c6-4c46-a6e1-d9c28af52913",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "ae83b60d-662a-42b3-8151-3582779b6560",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "8a02d774-866c-4721-84ad-0674360c17ea",
+      "humidity": "42.2999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "0f44373a-4fa0-4dce-8251-af83e4f81b16",
+      "humidity": "42.2999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "fd2bc528-d046-4b9c-ab2c-eda6aa85e915",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "95d33b71-7014-4c79-95b3-bf9597357d52",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "dcb582de-fc8b-480d-a63d-3c5abffa7349",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "74642875-5edf-4439-97c9-d5a53f3ed2b6",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "1c8ab3b9-3707-4a64-8eb6-361793ee9ade",
+      "humidity": "42.0",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "f1192aa4-309a-409b-9f26-a7a961cb6bdf",
+      "humidity": "42.0",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "1f46a058-aafb-47e1-94e4-b4844ef85197",
+      "humidity": "42.0",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "1f8f9d86-87d4-434c-9e72-09df06fdff2c",
+      "humidity": "42.0",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "9a534867-6f62-48fe-8ef8-ba6ada04a364",
+      "humidity": "42.0",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "26794227-b7ff-4728-93cc-f932d30ff2f9",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "b23c6282-717e-4c46-b27d-cf380bd9f5d3",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "f1d4e6b3-caf3-45b8-b632-9c9fcbeca6d0",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "0ff8dcc8-55b6-4b7b-90ce-f306d8492b65",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "0965ff17-c4c4-4a84-b07a-859c3c8fe250",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "ac985462-65ba-4cbc-b05d-2fbcfe3981b8",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "9d80cff0-d45d-4b99-9a38-d59c95b549eb",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "953929b9-ed9d-4fd7-8333-01d9cd908fa9",
+      "humidity": "41.7999992371",
+      "temperature": "30.7999992371",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "56815ecc-6700-4c19-8168-75086bfc9178",
+      "humidity": "42.7000007629",
+      "temperature": "30.7999992371",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "066c84f0-dba7-4380-92c2-00865d671978",
+      "humidity": "41.9000015259",
+      "temperature": "30.7999992371",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "521a6ebd-1862-4d4a-b478-a8c0747d858f",
+      "humidity": "41.9000015259",
+      "temperature": "30.7999992371",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "38021857-6547-48e0-95f8-a5130af52212",
+      "humidity": "42.0",
+      "temperature": "30.7999992371",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "3517bed5-8ca9-402d-b561-62e726652d4c",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "0f56d57e-9e4f-4460-9f89-73371155d79f",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "09d85eee-1324-40eb-be6c-2a3206058ee6",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "06d25c82-48a6-4671-a5ca-66599706632e",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "34fe63ad-b7e2-4781-8267-6215eaaf3a9f",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "7715e6fb-eef7-4298-80e9-959da3a95797",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "21750c07-0a3a-48ae-8ec5-7600dbe5d0b0",
+      "humidity": "42.0",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "a8fa9e33-3ad4-41dc-ac96-a1b86ddc600a",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "c4c56c93-bbf1-4239-9582-7ff554ab16d8",
+      "humidity": "42.5",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "46c5784b-9075-41d1-89af-5b520b01cd64",
+      "humidity": "42.2999992371",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "457ad353-fa48-4999-ba3f-a5d565d6d1dd",
+      "humidity": "41.9000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "078a233c-beeb-4483-aca2-0b85c2a7063f",
+      "humidity": "41.9000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "c18a7e61-cb66-4e02-80cc-b774fbb7e7cd",
+      "humidity": "41.7999992371",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "dc91a3ae-d79b-4c28-ba16-029b7f8151fc",
+      "humidity": "41.9000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "369e3d93-b359-4249-8fba-9eaa047ad503",
+      "humidity": "42.4000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "47da2f1d-d22b-4d56-a92b-2611e78c0708",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "b5df6618-80a7-4ab3-bfa6-c2fb9cdde1c5",
+      "humidity": "42.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "2d65c549-fc15-4970-a1df-9cf37c79bc73",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "4b2d9692-795c-4a5f-afcc-05b687d62083",
+      "humidity": "42.0",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "b1a0a168-35f7-4a91-8290-c1fc8caddcde",
+      "humidity": "42.0",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "ad3cc259-90d7-4876-8e69-72e365bc3554",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "bff04243-de72-40d4-b205-90c17be9c950",
+      "humidity": "42.0",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "5c0488f5-7617-4785-86d7-3dc18b7444fe",
+      "humidity": "41.9000015259",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "a9d16497-cc61-4991-83e3-560f73ec1461",
+      "humidity": "41.9000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "d842326c-5ff3-4232-9608-d44d2a9cabb9",
+      "humidity": "41.9000015259",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "b7aa15f3-2ca0-4bcd-a897-1321536b9991",
+      "humidity": "42.5",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "377bc56d-fe9e-412a-a057-37f484ec85b7",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "afa18d30-ca01-4826-9942-8b24750f399a",
+      "humidity": "42.0",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "14ef084a-6e22-491f-b7c8-7d972e6d425a",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "ef27a69a-db98-4e14-a0c2-9ff8ceea48e5",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "4125a595-552a-4234-b35f-580489fec8f0",
+      "humidity": "42.0",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "0fe4ad3c-5250-410d-a78a-0d36b6e58e33",
+      "humidity": "42.0",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "c4f1fd88-f1ca-4dfe-8fb3-b38cfcdda440",
+      "humidity": "42.7000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "a1cb2590-6b3f-4f2c-bec6-888fdaf55596",
+      "humidity": "42.5",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "4224a47d-2f3a-460b-af8a-9231363c2169",
+      "humidity": "42.4000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "68b33623-8ae3-49ca-8f79-4b3216517b1b",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "93a7f9d9-df0e-4626-ac5b-16c8dc180668",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "1e5edc0e-d64e-409b-87c2-f6decf2cd6c8",
+      "humidity": "42.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "80c8d6ea-8a9a-4e23-b835-b377c773c059",
+      "humidity": "42.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "6e37a929-3d0b-4a93-aede-e51d908681c0",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "bb36f302-06cb-4111-a8d7-4d15a71819b7",
+      "humidity": "42.0999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "035e4014-f0e7-43a9-ad1f-cbb3d64e4785",
+      "humidity": "42.0",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "269d94b7-0bcd-4ca9-ab85-1243297b521e",
+      "humidity": "42.0",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "b91a96e5-5037-4109-bc6f-5b3d69edeba9",
+      "humidity": "41.9000015259",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "f5d7ed6e-94bd-4b56-ae7d-e9aa64831e9d",
+      "humidity": "41.7999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "647bd62a-be6d-4a3c-ab4b-746291afcec3",
+      "humidity": "41.7999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "12f3fb84-b3d3-4a50-a744-ce90c23be706",
+      "humidity": "41.7999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "18b01880-ce98-4f3b-a622-0e8f5dd7e360",
+      "humidity": "41.7999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "1e0930ee-969d-4856-bd89-57218ac1101a",
+      "humidity": "41.9000015259",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "ec5a8666-e96b-47c7-bd5e-917a9b319965",
+      "humidity": "41.9000015259",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "ea4b8b70-3784-44ef-af7a-d87010ed0cef",
+      "humidity": "41.7000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "bcf5b66e-5024-458a-b0a1-80414d997b18",
+      "humidity": "41.7000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "0cb8df6d-b26b-4cc7-9fe4-2b5d2144188b",
+      "humidity": "41.7999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "b5f95608-b55a-4244-83e7-91b4ac6f8b04",
+      "humidity": "41.7000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "5a21c8f2-839c-4836-8f3f-4e2398aa7449",
+      "humidity": "41.7000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "212f9650-5fff-441f-ac76-0fb753cad08d",
+      "humidity": "41.7000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "8d092a03-0a6e-49e9-b630-c9afb39da0f8",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "5232043c-95af-49a1-a46d-0a5a6eab99a6",
+      "humidity": "41.5",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "bcc1e2a3-d1a3-4ed1-abd6-8790e23217de",
+      "humidity": "41.4000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "ff4d6d3f-9c1f-4ea4-bdff-b4bed330da7e",
+      "humidity": "41.5",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "e06827b0-7c27-4ba7-925b-e620bf437711",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "90a7ba69-3543-4f9b-a5d7-214908d7b484",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "3c22c891-ecfb-4f81-b54f-b385e985f6a5",
+      "humidity": "41.4000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "ea220e21-c2a8-4e75-86b7-eb8b0779971f",
+      "humidity": "41.5",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "c5c9762c-3187-4977-b1f9-5f7446769754",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "6822ba14-b2a6-4b19-98ee-9487f0d9c152",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "afa57561-9c49-4806-8a51-b0c5c11dd694",
+      "humidity": "41.4000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "dfe62d53-b888-4548-bff0-5a65cbf88a7a",
+      "humidity": "41.4000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "f3332f07-5bd4-4264-b8d7-eae78bc7a3a4",
+      "humidity": "41.5",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "b57d0a68-b00e-4b21-96c8-f03e80932d4a",
+      "humidity": "41.5",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "a2f38373-49d8-44e8-bb4d-e97e66e3b6a0",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "608f903f-2939-44bb-ad7e-4f11f37b7f05",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "fd062215-189e-4887-ac05-0936d8c619ef",
+      "humidity": "41.5",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "8e891f40-1fb2-4cb3-9175-b0e8a04f0723",
+      "humidity": "41.5999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "6fdf4dbc-96eb-43b2-ad07-038397fa7374",
+      "humidity": "41.7000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "2da900bc-8855-4124-8af7-847a9524b5e4",
+      "humidity": "41.9000015259",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "1d484013-8621-4f2c-958f-9f02078c6ed4",
+      "humidity": "41.5",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "1a82c947-3b30-40a5-8283-12e5a35767de",
+      "humidity": "41.5",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "dc16495b-2ba4-47de-bff7-07c0be71327b",
+      "humidity": "41.5999984741",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "600e4932-b5d9-4229-abbd-86cb0d60fc48",
+      "humidity": "41.5",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "e6a92379-e6bb-4420-ba31-a83b80381ed4",
+      "humidity": "41.4000015259",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "d17c74d4-9f30-472b-81b2-1948d7899f80",
+      "humidity": "41.2999992371",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "eddb4315-27be-4c12-974e-c371edeb8d09",
+      "humidity": "41.2999992371",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "38b47e7e-cb6e-414d-8248-2dce9578ac8d",
+      "humidity": "41.2999992371",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "1b5315df-42c0-4185-b7ae-5345c025460d",
+      "humidity": "41.2999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "af7e7453-fccb-4c45-87cb-2d28c470f706",
+      "humidity": "41.2999992371",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "7d28d24f-77a3-46c7-b39c-8ad799ef2ab4",
+      "humidity": "41.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "6cdb47d4-c446-48c3-b402-a029ca0e71f2",
+      "humidity": "41.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "3da3cc5a-08ae-4130-8bcb-76fe4601bf59",
+      "humidity": "41.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "bf2d7b99-bcc8-410c-9c77-ef7c079f4527",
+      "humidity": "41.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "5452e70c-2780-4889-aba8-74b84a52c77e",
+      "humidity": "41.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "ae8350e1-98b3-44b9-97d4-6c0920371418",
+      "humidity": "41.2000007629",
+      "temperature": "31.0",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "a54a81d9-c76a-437e-ac5e-364f00b8b128",
+      "humidity": "41.0999984741",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "bc4fb3d4-b3d7-452b-bed8-0ddbcd663b65",
+      "humidity": "41.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "6f987af9-7cee-4e32-a0ed-8a3ed659d417",
+      "humidity": "41.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "9301d7d2-6550-4046-8a7b-80f050bd3be0",
+      "humidity": "41.2000007629",
+      "temperature": "30.8999996185",
+      "date": "03/14/19",
+      "time": "3:20 PM"
     }
   ],
-  "records": [
+  "ultrasonic": [
     {
-      "id": "490fb03d-72b0-4e81-91f8-6061b5cf972f",
-      "device_key": "io-tx-2466",
-      "priceLimit": "50",
-      "tpower": "1000",
-      "January": "0",
-      "February": "0",
-      "March": "0",
-      "April": "0",
-      "May": "0",
-      "June": "0",
-      "July": "0",
-      "August": "0",
-      "September": "0",
-      "October": "0",
-      "November": "0",
-      "December": "0",
-      "AC": "0"
+      "id": 1,
+      "reading": "34.5",
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    },
+    {
+      "id": "176ac4bf-8363-49fa-9b59-75ab733f8f95",
+      "reading": "287.59",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "7c91ae76-809e-46f2-8b88-05c61778b46c",
+      "reading": "43.42",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "c9a36434-0429-47aa-8b1e-a83f9f7de87f",
+      "reading": "43.48",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "af86e540-bf15-4ba5-bc01-ae7a4e00d6f5",
+      "reading": "48.53",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "ec2cb0fc-cd41-4bfb-ba8d-8e8189fbc8c9",
+      "reading": "44.92",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "968bacce-b56c-40c3-8353-b8ef5e2c5d58",
+      "reading": "7.32",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "b85d23a0-64ad-4e52-bee0-405c6bfbd7d9",
+      "reading": "7.34",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "7af0cc24-be1c-4a0b-874a-acd1a2d5872f",
+      "reading": "7.32",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "6f7b7812-c5a5-409d-9918-39b79adaba12",
+      "reading": "7.34",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "da170442-f1f7-4146-a637-2651ab3b211d",
+      "reading": "9.64",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "785e5855-c10f-4fbe-8ce6-5f4aacb7d69e",
+      "reading": "291.29",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "6462799a-f0ce-416c-9bc5-208b83a074c2",
+      "reading": "300.66",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "38136d07-2c44-4603-9b46-396a270e46f4",
+      "reading": "5.49",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "94d87da9-dd5f-463a-b32a-4d7f794d55c7",
+      "reading": "287.78",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "f74ae974-ff74-4d1f-a171-815d2f11626e",
+      "reading": "287.79",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "f4868214-dfc3-4844-aecc-1986f106170c",
+      "reading": "50.73",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "055c0aff-3de0-4de0-a09c-c6553ed5c11e",
+      "reading": "287.48",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "6e7a4a1c-4e28-4cf9-b167-0ac9c6df62ef",
+      "reading": "287.83",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "05c8905b-d087-4a5f-bc36-d6d47dd7e7dc",
+      "reading": "288.0",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "71437cf2-bf80-4146-b80f-2654aba810fb",
+      "reading": "287.86",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "db550035-7c7a-4afc-a052-8663eabe9f24",
+      "reading": "287.76",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "20a920ba-f278-4263-abd8-29ab82fc09b6",
+      "reading": "124.42",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "36a358a7-a066-41f0-bc52-308af274c63c",
+      "reading": "5.43",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "d11015d9-6578-4349-81b9-f7d316ca0b6d",
+      "reading": "299.85",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "949983cf-fc40-4d41-8663-056eaf0320c4",
+      "reading": "6.88",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "c789d5e5-9310-417b-9c8e-7532782beb29",
+      "reading": "4.03",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "9ac2cd01-5c38-469b-95d7-b7988faa45de",
+      "reading": "4.29",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "3fdae836-86f9-414a-80f7-30d24307cf69",
+      "reading": "137.8",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "59b9c957-87e1-4658-869a-c386e7dd93b8",
+      "reading": "287.71",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "cbae332b-b36f-4782-a00a-d37ea0b97cce",
+      "reading": "288.63",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "74d439a4-bb2a-41e1-9c83-3940ffe55c8b",
+      "reading": "288.27",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "6927c822-23fc-4e89-a627-3441909416a2",
+      "reading": "28.59",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "a6a7d056-c7c8-4a5e-afd9-db211f82c96c",
+      "reading": "30.94",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "33d8a9e3-7550-4af3-889c-31133be15bc1",
+      "reading": "287.89",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "99453fc5-15f5-4d28-8ffb-0517d8d27dd1",
+      "reading": "17.6",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "644a668b-3ce4-4344-821f-e6d4d1cd1524",
+      "reading": "287.37",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "c651a068-88c1-479f-bdaa-16491ba8d31e",
+      "reading": "287.51",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "4b560c9e-ec2d-42fb-b795-8262cb5493db",
+      "reading": "287.81",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "097c3548-7725-419a-bee7-8672865ef264",
+      "reading": "102.06",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "e5d4ca5d-d9b5-4483-ad76-12bf2cbeb9cb",
+      "reading": "287.86",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "79b4da72-92b5-4496-8683-3c364a0f6828",
+      "reading": "287.83",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "7a441a81-23f1-404c-b81e-18739cde85e5",
+      "reading": "7.24",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "52f8b9f7-c695-4a22-86d3-45b6ef2f3179",
+      "reading": "288.76",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "47b1f2ed-7668-4e6c-92ac-b441e60bcf3c",
+      "reading": "287.35",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "1af9b091-40b7-4288-b356-a5a3efba8d53",
+      "reading": "288.36",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "30939906-0b6e-4ccf-b4cc-3fcf7320db9b",
+      "reading": "288.22",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "9f04648c-83b7-448e-bfbb-c94592cbdc2e",
+      "reading": "288.29",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "8d6878be-fa76-4248-a5bd-71ca2b31459f",
+      "reading": "289.08",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "73443857-d90c-4596-b790-80d3b6bc9760",
+      "reading": "58.89",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "fa61afe4-8160-4be7-a91c-5fa0a1244059",
+      "reading": "288.02",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "84ec6bd8-c60f-4e34-9876-69edca97fa9d",
+      "reading": "288.79",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "a74c86ea-99b6-45e5-a0e6-3a6c0fb13cfa",
+      "reading": "62.72",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "8df42f81-8dfd-4146-86de-1eb637b18043",
+      "reading": "154.94",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "fb1b59be-d5ed-416f-82a0-493f9f2cc28e",
+      "reading": "107.29",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "892b0d18-cf64-400e-aa34-4a3a180b9da5",
+      "reading": "155.05",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "bf040b11-1947-4b13-afc0-843419d95b6b",
+      "reading": "154.59",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "26acfc86-4093-4614-8a71-aad1084f5370",
+      "reading": "91.21",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "cf97d9b2-fc95-4e41-89a8-f68ce566e553",
+      "reading": "87.17",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "a463eedf-a63b-48df-9123-b0eb1948c566",
+      "reading": "89.22",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "cea2a4e8-0cdc-4ecf-a5b8-64deaa9c056f",
+      "reading": "84.86",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "abd32fe5-b2d2-40ee-9c55-3933d915653c",
+      "reading": "85.27",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "a6392800-fc3b-4be1-add8-2d3bbd7ceeb5",
+      "reading": "155.0",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "f6a8d5e9-9d00-4808-a681-4400e31fe6e2",
+      "reading": "155.32",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "0bfe9ca1-a7b5-4320-afdd-c64d2595958e",
+      "reading": "155.34",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "81b6fb70-37bf-4b71-a6c5-bb495d4f2160",
+      "reading": "154.95",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "e11a1c2b-57a2-425c-a113-0bf5ac0c8ed2",
+      "reading": "155.41",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "d23690fe-a64b-42c5-b6f3-120564ff0f9f",
+      "reading": "155.43",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "e0c12362-4987-4f72-9edb-872af49350e8",
+      "reading": "155.02",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "e6d25ba3-50bd-43b7-91e8-8253dcfcb23d",
+      "reading": "155.4",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "f55bfac8-9303-4a37-a4f0-456e26e790c7",
+      "reading": "154.92",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "b5c68ee0-9200-4fce-b779-18ab0afb7eb4",
+      "reading": "155.53",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "b339a5f4-5b09-4cf9-9c01-992cf7cebfe7",
+      "reading": "155.45",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "fcce8642-b7e6-4278-9fb5-9c6381bd7c59",
+      "reading": "155.1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "09efec3e-789e-4e75-bddf-7ac641588f00",
+      "reading": "155.04",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "388e097c-6192-4e99-aabd-6bbbeed7fb12",
+      "reading": "287.74",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "bb0a3f49-b11e-43c7-b58d-7fc6d61df129",
+      "reading": "288.79",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "a02b2ecd-8bde-4da3-b607-191b770e02fd",
+      "reading": "155.47",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "c06ebde0-4bde-4d49-8afd-1420a4d65f55",
+      "reading": "95.01",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "d85e66fa-e055-4d4c-ac77-51ba1a63dafc",
+      "reading": "155.52",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "703d8007-c5cf-4951-9388-b3e61a80cec8",
+      "reading": "155.43",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "a7baf77f-afd7-482b-96d7-9861f2b68255",
+      "reading": "156.24",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "941b68bc-65de-4513-8328-395033699c50",
+      "reading": "155.05",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "7efa2394-4a06-43e8-9529-996e083e8135",
+      "reading": "155.36",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "76c7caca-6fe1-42a6-b840-7ab29d16c3d8",
+      "reading": "155.88",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "1740b538-7091-4afb-804d-181fc0357d7d",
+      "reading": "154.93",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "7e1093ec-a560-478b-b1f9-f4a85bc31a70",
+      "reading": "155.0",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "b33e062b-8aeb-405e-b9dc-4abc84ef235c",
+      "reading": "1524.31",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "6591be4e-73db-4c91-8238-0d17ebf98d6e",
+      "reading": "155.84",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "85d4fab1-5d75-49aa-9b9f-05b647a1679f",
+      "reading": "1482.77",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "373bdb8c-cbf0-493d-83f1-ad517f327515",
+      "reading": "156.65",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "77a45123-fd3f-4f8f-af84-a8453fa76341",
+      "reading": "5.85",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "ef947a3d-ab14-4494-bc93-e244e800949f",
+      "reading": "6.04",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "faa91ee7-7716-4f5b-a606-9547b6f6a326",
+      "reading": "138.35",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "c89c425f-58c7-42b1-8dd5-b0c2036cbf75",
+      "reading": "27.68",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "63f2556e-f5e4-4f22-b58b-1e869cb0a1d5",
+      "reading": "287.64",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "2c3139fe-7cb7-4be5-ad38-ecbdfefefed1",
+      "reading": "288.53",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "33b63485-e484-4026-970f-7a49a934fcf0",
+      "reading": "4.44",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "a3d853ea-a9ea-4436-999a-f9eb05beabd3",
+      "reading": "288.11",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "7a45185e-8767-4036-bf92-a6671b57789b",
+      "reading": "139.6",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "d5122a7f-8785-44fd-8a34-dab49192fc0b",
+      "reading": "288.6",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "0323000b-e8b5-4e0b-9cab-583536881708",
+      "reading": "157.13",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "eeeed461-c352-4b8b-aa47-1281b5cb3f65",
+      "reading": "288.14",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "53459b14-c50c-40ce-9769-6b09e1105a24",
+      "reading": "288.07",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "a9c027ca-5019-4541-8b03-d56d474804a8",
+      "reading": "288.56",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "aa064994-e4ad-4961-b703-7987c478fb6f",
+      "reading": "288.29",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "299b6706-9864-4d68-97fb-6b1368865085",
+      "reading": "119.85",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "a1501de8-cf39-4c99-83c7-7271368135a4",
+      "reading": "289.3",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "89242585-5d59-49c1-b1ee-39b0d49be309",
+      "reading": "287.61",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "76dbc1b9-46c0-4619-ac41-8b1bfae5cc54",
+      "reading": "1534.74",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "51be75cf-246b-4177-ad33-268e0277309f",
+      "reading": "288.52",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "93b7fc09-d72a-496a-af07-f89a7bfba970",
+      "reading": "287.64",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "370bff18-ee4c-4838-9c6b-8f83c7b07d46",
+      "reading": "131.76",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "2236d61e-e692-452f-bf66-becd4d8b8326",
+      "reading": "82.1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "56fecc25-68b5-4bca-b43c-a59ead92cf21",
+      "reading": "1907.37",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "41f5f361-83db-4c0f-aee1-a64079fbcc38",
+      "reading": "1551.53",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "5a61bf69-1c50-4339-81bb-251fd5dbb657",
+      "reading": "1551.23",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "4e110fa5-2489-4253-b8ed-a8978921392f",
+      "reading": "1551.05",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "539ee1ec-c868-4b5e-a5b5-15e0edbf36b4",
+      "reading": "55.1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "450cd9fd-2ec0-49ff-9053-96478e05c0bb",
+      "reading": "55.55",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "027f341d-dd97-4e19-acad-91765ce5f88e",
+      "reading": "56.05",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "95d493b3-e217-4f70-82ac-3e38c5d65e8c",
+      "reading": "1470.08",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "cd32a470-6bb6-477e-bf34-bc6a6ecb06c6",
+      "reading": "287.93",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "24bc782f-ea07-43fb-9f6b-42fba292c33d",
+      "reading": "289.0",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "fe40adf0-2d40-4fdd-aec1-d3c6d758c963",
+      "reading": "2.74",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "e8a2e047-bc0c-49b0-83f4-dce43cb1d6a3",
+      "reading": "1491.05",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "1c262ec2-8a66-4538-a6a5-bb52a1a8078c",
+      "reading": "5.35",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "50b0bbb5-20a1-4561-8172-9aec0a160d95",
+      "reading": "2.78",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "17524ca4-56ae-46f8-ac08-5cc7a6995487",
+      "reading": "12.43",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "7f877ef7-e6e4-4802-8823-ff8a48399ddc",
+      "reading": "1533.21",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "8f108941-f398-46f9-a6fb-719d10d12d9b",
+      "reading": "131.58",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "b43f3812-de47-4df5-8fec-94534ad913bd",
+      "reading": "1507.74",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "2921b843-9fb7-4a46-9100-9a36d2e533f1",
+      "reading": "74.35",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "e36d81e2-f659-4fdf-9324-da5dd5bfecd9",
+      "reading": "12.5",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "1c685189-a09d-4585-b4c5-b19bd40a57f7",
+      "reading": "12.55",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "b96974f5-d778-4ccd-b88f-d9622316395b",
+      "reading": "12.02",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "4fd78d5c-5360-4fbc-bbc8-ad6904db22de",
+      "reading": "12.11",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "ebf60567-054b-4be5-b961-1dbdbee8ecc2",
+      "reading": "12.02",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "73bda9d7-368f-4e25-92e2-3b1e53e75e7f",
+      "reading": "12.02",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "ab6a8b61-325a-45c0-928e-59ed6856a024",
+      "reading": "12.55",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "da2a09c3-6f39-4a5b-83de-79a9a11a0b8c",
+      "reading": "12.55",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "cae2d1e8-2fba-4d67-a888-e688858ea476",
+      "reading": "12.55",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "57a28405-d800-4e20-b2bf-1d9007b4f650",
+      "reading": "12.19",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "fea243ba-8b5a-4877-92cd-ce94ddb0039a",
+      "reading": "11.85",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "3e3925b6-783a-44f8-86b1-ef262819da32",
+      "reading": "11.77",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "69e555f7-5f30-46d6-aff9-878ab436bc19",
+      "reading": "12.62",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "ae33fe3b-2cb7-4cd8-b2df-6904eb6f81e7",
+      "reading": "12.11",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "4e04ea03-8c89-4a44-8c4f-fcbe669e5210",
+      "reading": "12.19",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "100eebf0-6cbd-4268-9b54-2616e4002a3c",
+      "reading": "11.56",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "b7d3b8fd-402f-45d9-aeda-407dd9e2ab11",
+      "reading": "12.11",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "dbd401d7-a449-4d30-8b80-9d5710b3a95d",
+      "reading": "11.8",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "b76d2776-d717-4590-b1fe-49004394b95a",
+      "reading": "12.55",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "198b78b4-7d92-43c7-891a-1631e5d3f53d",
+      "reading": "11.69",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "d90a8e75-a536-4564-afee-2d31c6330c59",
+      "reading": "11.68",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "6a00d162-f573-45fe-8450-b530fee57ee0",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "66621c82-cc5c-493d-8496-34dc828cb4b4",
+      "reading": "11.65",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "40cb20c7-897a-4837-be24-2ecbec7e1c72",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "4a54c64a-9174-4055-b2bf-f18e76a1541c",
+      "reading": "11.71",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "18ab064a-7a8b-48a3-86a8-92e37a6baeca",
+      "reading": "11.71",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "7fde8e6e-0ebd-4cc8-906a-34146228e8d9",
+      "reading": "11.77",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "1e1b7568-a2f9-41a0-a162-55442f148dd8",
+      "reading": "11.73",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "821c41a5-6b9d-402d-990b-283fa5756217",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "2132ee26-269e-4b1b-a93f-1926ace2ef21",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "c33e930e-b5df-4655-947a-0035e0db4e4a",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "85bb095c-ef71-41d4-af0f-2d173ed3dbd0",
+      "reading": "11.78",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "49ce7350-f3fc-4ee3-b70f-8db1e38a5470",
+      "reading": "11.68",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "6d1ad392-84c1-4c00-b7a9-7edd2635e2c5",
+      "reading": "11.8",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "2ff7ff02-1fc0-448c-a920-cdb802b816fe",
+      "reading": "11.76",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "af27b815-f879-489b-9b3a-ab57c7b86afd",
+      "reading": "11.66",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "838c6d9d-c3d1-4a34-a343-2e6a871c1616",
+      "reading": "11.68",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "701313aa-c904-4f37-8a90-5f18c6471855",
+      "reading": "11.78",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "e27e5829-e3bf-4c12-adea-dbc08c4e4a34",
+      "reading": "11.71",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "af62694b-f840-46d1-9666-39e2884334e2",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "8959d9d0-5e28-486a-9f31-d0b4154f6218",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "c7e9f021-0e07-428e-8c6d-ca96d37fabda",
+      "reading": "11.67",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "1dca0e35-a175-43e5-aecf-d0f2cfb12796",
+      "reading": "11.77",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "c8caf2ab-a525-425c-948f-8be569a49fe8",
+      "reading": "11.75",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "19c6ce2e-1dfe-4711-930d-ee90e659150f",
+      "reading": "11.22",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "6c780748-fe50-40ed-8956-d05192ce7c27",
+      "reading": "6.5",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "2f4bd02e-eaec-48bf-b99f-0144f26066d8",
+      "reading": "8.68",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "ad5e0a2e-c7f5-4c4c-a2ab-3f12fa7ccb4a",
+      "reading": "13.01",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "86f46b99-b671-4a4f-88ee-d9f67a1009fb",
+      "reading": "13.01",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "0c501726-beaf-4cf8-82a3-b88a3ca4d371",
+      "reading": "8.68",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "10c385a7-496e-4164-a9f9-d1a3500326a2",
+      "reading": "8.76",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "90e51f0c-9fc1-4429-a9c1-756a23eff6b7",
+      "reading": "9.11",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "2d0f3a15-c0f4-45f5-a8f3-84c5df0237f9",
+      "reading": "9.11",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "0e5f3a62-4cbd-48ca-80bc-621f030c72c4",
+      "reading": "248.16",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "9947cd9f-8005-4604-b56b-1842fdc04dc5",
+      "reading": "83.21",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "f6872167-0e12-4f1e-87d0-dd513d613c0e",
+      "reading": "246.92",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "3e740a4e-7401-4260-9194-d06debd3f66c",
+      "reading": "248.14",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "8d7d0f05-501a-4fe8-b44e-381515642a10",
+      "reading": "246.91",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "ab89dd8b-b6a9-4eb3-b79a-79001678d11a",
+      "reading": "1516.09",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "d26eb86b-4127-47cf-b450-ccf725d390ff",
+      "reading": "75.13",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "16da5142-aa8e-47d4-afb2-fb7c56375c52",
+      "reading": "4.35",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "0bf08df4-5d81-448a-8867-5ced75a03054",
+      "reading": "82.42",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "3ee1911f-1a34-4079-94ed-9bacfcf9c4eb",
+      "reading": "1477.35",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "655ef48f-333e-4225-a541-5f3fe14e9276",
+      "reading": "68.29",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "bb6afa42-98a0-4230-a62f-3edcff3d8344",
+      "reading": "74.36",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "9fcf8c5c-e2d0-4ba7-9f4f-99042b72079f",
+      "reading": "1498.41",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "230a82ce-70aa-403f-93bd-9b17b334f4aa",
+      "reading": "1552.06",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "bd3615a0-e8eb-472b-ae10-f280cc81cb0b",
+      "reading": "9.67",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "c85ed0b9-e09c-421d-ae40-db81f51372d4",
+      "reading": "1540.86",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "5c119cc4-12b3-402c-b04a-aea1784e3f68",
+      "reading": "84.65",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "583291d9-a85d-4ff2-85b3-5a027a2c9688",
+      "reading": "22.26",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "dba476d7-826c-4c26-a69a-6e5a9ef26943",
+      "reading": "25.89",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "21568e5d-3d40-4676-8a69-eaae6455a27b",
+      "reading": "34.33",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "cf65acb1-2c62-4fed-93da-be1b7ca1a7e2",
+      "reading": "1470.68",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "ad166d23-00bc-45c1-a17e-f9f6093fb7cf",
+      "reading": "1439.23",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "41af54ac-4cb1-40c0-83f6-cf0aa0e1b3dd",
+      "reading": "578.52",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "4c4c0417-ac3c-4e81-b176-a7841a24e411",
+      "reading": "31.06",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "2b7e8369-ea45-4fdd-a218-74400b539da8",
+      "reading": "40.78",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "1be8511f-c18a-4d4b-a943-71ba4700e6f3",
+      "reading": "20.99",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "fce36308-345f-4e0e-98de-baca8bb3d74b",
+      "reading": "63.42",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "8e1b7eaa-346d-4da3-a124-1070c9644b00",
+      "reading": "1533.97",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "52348272-3717-472b-be9c-d2e7c04d5789",
+      "reading": "53.05",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "5e65bd87-c143-4dde-a63e-eab1cb1e32d4",
+      "reading": "478.84",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "ceb34429-aece-4e1f-8cf7-938b6c441713",
+      "reading": "169.12",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "72f367dd-a9bb-4021-9e87-6706e60d976e",
+      "reading": "672.33",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "b1ad2ebe-01b2-4fc8-9a08-cebd584fef26",
+      "reading": "524.5",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "647bf233-03fe-42cc-8b6e-65a9764672cf",
+      "reading": "96.4",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "9427b014-175f-47ae-96f5-7a263c73c273",
+      "reading": "95.11",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "54466350-7c98-4125-9f21-9cdfa238eead",
+      "reading": "11.56",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "a873f5cd-9bd5-4fcd-9994-b827559ecdcd",
+      "reading": "6.16",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "87a66233-d00c-43c1-84ae-8381dc90723a",
+      "reading": "5.8",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "b87c46e9-f683-469b-bdfd-5c6badb773f5",
+      "reading": "75.44",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "cfeeaf04-69ae-4433-a4d3-3ba0fb8986ed",
+      "reading": "74.12",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "3a1a83c5-5555-4c2a-9936-44406ac9769a",
+      "reading": "67.16",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "f6583c55-cd3f-46a1-b0a8-ca04f61e7e7b",
+      "reading": "69.44",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "61d43a0b-ff7a-424b-95a1-d32b6e633bcc",
+      "reading": "70.04",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "f84caaef-199a-4be0-b611-d2ef022c6f86",
+      "reading": "6.1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "1637dbd9-094a-4e56-b5e3-e5c7320977b9",
+      "reading": "11.69",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "68fec472-ebcf-4051-9f43-f2f94611e451",
+      "reading": "7.63",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "a41ebff0-f87c-4861-be12-0dcfa5c990be",
+      "reading": "1478.33",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "66b7f2cf-c153-4bcd-99b8-0edd570f89f1",
+      "reading": "90.88",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "75087c7e-19bb-46ee-a2d1-9ecb5e8dd8b5",
+      "reading": "476.27",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "09daf50e-ae14-45df-bc84-c1cce411b215",
+      "reading": "1503.44",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "49cacef6-3e86-4445-8226-d989cc2fe698",
+      "reading": "113.91",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "605be554-f35c-4450-bd46-81802efb0853",
+      "reading": "5.27",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "b34a5a2c-b250-4c57-8c6c-e5f8ce5b246a",
+      "reading": "1519.4",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "16c50d18-57c9-4dbd-b9a7-89227a33b87d",
+      "reading": "365.67",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "a7f961e7-e615-42e3-941e-1ea21f0a0137",
+      "reading": "4.26",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "16697848-0e08-4b4b-bb98-b1759cc2bec8",
+      "reading": "8.16",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "20303901-fbd2-4796-afdf-824bcd67b4fc",
+      "reading": "102.66",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "99233a18-a840-4b53-aacf-af91c8bab2c1",
+      "reading": "65.21",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "21e9d515-3fd8-4c05-bc96-8311bbf759e2",
+      "reading": "1524.4",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "28686e0b-02da-40a6-adf2-4b81c8e0b749",
+      "reading": "45.21",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "464c010e-a38e-411e-afeb-a082b6d88074",
+      "reading": "1507.18",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "015cd68e-1ac2-4305-9534-9a7f9ce0cd76",
+      "reading": "1552.06",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "a25a073c-a2a2-4574-bbbc-91bb3468bc8e",
+      "reading": "1322.3",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "d53859a2-b0f4-4b50-adfc-ec331364ca7b",
+      "reading": "31.26",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "5872d4e5-5de5-4b9b-9374-75e54893976c",
+      "reading": "1494.24",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "d03fe8c4-cca5-4ed7-bbd2-3ea9aec65dbd",
+      "reading": "1552.9",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "a2b239ac-188d-4b54-9dc1-4305fcace492",
+      "reading": "116.74",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "4df9bbde-f14a-46e3-add0-2fa7688c7724",
+      "reading": "1523.61",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "846626e4-daaa-4fe6-ac71-44c394a1ad4f",
+      "reading": "31.71",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "8c1e0659-b394-4f30-ab05-4ee4cec44c0c",
+      "reading": "25.91",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "a66ad564-c5ce-454f-9970-dee1701c6e49",
+      "reading": "24.97",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "857ad355-e411-46bd-b22f-d9cdfaa5c10e",
+      "reading": "969.47",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "5c07b54c-f4e0-4d31-97b5-67271b992da8",
+      "reading": "52.99",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "04e52d80-a2f8-4c5a-a9c7-e5771ec2d613",
+      "reading": "25.73",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "87247912-2d8f-4af1-8b31-a197b9454e19",
+      "reading": "26.1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "dbbd7340-6f19-48cd-98d6-76c47fe31d70",
+      "reading": "26.77",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "42a1391b-efd7-4ee8-b89c-1ee8738435a0",
+      "reading": "1354.13",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "f6617bc5-d68b-458b-8f0a-108d659cc678",
+      "reading": "130.63",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "33fdc464-f0da-482c-ba73-986c4695de54",
+      "reading": "1476.92",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "bdf3f012-b634-4c01-8998-26b183f7bd1b",
+      "reading": "31.08",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "7b78780d-07e1-47c5-865b-8ce74789ad06",
+      "reading": "460.19",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "2ef21f9d-9675-4577-aa9c-b56939d4936b",
+      "reading": "301.48",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "e6cc05ef-645c-4e97-be0d-96dbb646b459",
+      "reading": "37.35",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "25b9d643-fcdb-46aa-a1e3-35a0c354f189",
+      "reading": "82.82",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "35f8664a-2e97-4da7-b485-f074f47038ad",
+      "reading": "1499.63",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "b465801c-2ff1-40eb-b46b-0e468525eb27",
+      "reading": "1288.54",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "470fc2d2-fab0-4635-a660-17fc5ed0b943",
+      "reading": "28.31",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "30517e14-49b4-44be-a660-4205309527eb",
+      "reading": "1098.05",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "aaa288e9-7461-4341-a112-74b1e144d898",
+      "reading": "117.84",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "be6e5a3b-1cee-4333-af27-3328a53d1192",
+      "reading": "1523.86",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "db37d4cc-d556-45c2-9b4b-73cb51a4f0c6",
+      "reading": "361.44",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "588e4951-683c-4a74-aca9-334f6ffade9e",
+      "reading": "122.79",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "e4482b44-8483-4470-a753-91621ab64893",
+      "reading": "1501.84",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "2d2741f9-6416-452d-960d-f8a977f90e8f",
+      "reading": "121.51",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "aababff8-3b03-434a-9060-a386074c356d",
+      "reading": "79.32",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "01991a8b-82aa-4796-bb2b-a3520fcc4fff",
+      "reading": "70.02",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "48420db6-14d1-4686-a655-a8236892f765",
+      "reading": "116.62",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "faccfa9e-c692-4076-b8be-a45b84130838",
+      "reading": "64.21",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "10616c1b-1669-4015-89e4-6174a9740987",
+      "reading": "117.24",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "630e2039-eae3-4d85-99a9-8cdeb174f6c9",
+      "reading": "1504.72",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "67f41c73-cfbe-4465-a0df-3d0e7a7e7d28",
+      "reading": "1553.04",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "5bc370fa-e195-4660-8262-aea7c3c45fbb",
+      "reading": "119.31",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "11e01cd7-31c0-4698-8d2b-ee54bb3c4262",
+      "reading": "66.46",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "bb6798e6-9055-4ee8-aa9e-a38791fbce74",
+      "reading": "31.82",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "9c6af955-ff06-4636-8ebd-5c4082bcc445",
+      "reading": "117.6",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "f9c4297b-f0b5-411a-ba4c-adf900a5d46f",
+      "reading": "34.29",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "3c9ef145-4e7e-4d2f-9b48-32cc2f427ba6",
+      "reading": "26.24",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "78220f00-71ef-48f5-808b-1ae798950456",
+      "reading": "24.42",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "a4651231-cd88-4607-b92e-8fce0763c863",
+      "reading": "25.28",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "eb74887b-ee54-4472-b61a-1af8b0c95a06",
+      "reading": "26.23",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "dedd7e9b-398f-486e-8dff-d34767a2036b",
+      "reading": "26.99",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "9e908601-3a27-4239-ad6b-284f503a86de",
+      "reading": "1486.94",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "1da69033-4f79-4736-a690-e4f8c1c152a7",
+      "reading": "78.41",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "6f470cdc-858d-4b12-8773-460603b1522f",
+      "reading": "76.11",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "679bc4c1-14cd-417c-a0d6-810a4f65e357",
+      "reading": "1486.24",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "94d5fe83-c0f7-4c5b-b14a-bd1fd500ff2e",
+      "reading": "683.03",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "31b79a84-256e-40a2-ba1d-a3a72b346bc3",
+      "reading": "30.39",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "858d6048-7946-4cb1-bab2-21be16e64f56",
+      "reading": "36.42",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "1c2cde62-a8e8-4c24-aebc-64983c5bb6d3",
+      "reading": "117.02",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "867bfcdb-1658-4a1f-bf0c-ca0b2bda16a2",
+      "reading": "630.61",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "b11d2834-e6f7-46ad-828d-e67518843e50",
+      "reading": "116.53",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "de4941bb-50a0-4c3b-812b-9c6e8c237951",
+      "reading": "27.99",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "c9de12d3-ca97-4c61-b4a9-83c1d3379bd8",
+      "reading": "51.74",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "d28fbfcc-855f-4e29-b51a-de2bd4e5acb7",
+      "reading": "1498.19",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "a0900646-806c-42fd-bf94-3c1a878f7441",
+      "reading": "93.26",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "7f6369f0-96d7-41ef-a6ce-46605763c415",
+      "reading": "94.51",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "7742c36a-0187-43c8-8aec-22b095951a9f",
+      "reading": "1538.34",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "362182f7-c952-4371-8db1-5fb945b8bcbe",
+      "reading": "153.59",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "4a9370a5-2279-48ba-b68d-cb74ee854b00",
+      "reading": "154.21",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "af72e975-5f9b-47e1-8f8a-f8634745d7e0",
+      "reading": "156.39",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "92ee7be6-3b8f-429d-ac66-4091ab360f99",
+      "reading": "305.11",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "2a8ecb90-214d-40c2-a0bd-7b0bed8696f9",
+      "reading": "103.64",
+      "date": "03/14/19",
+      "time": "3:20 PM"
     }
   ],
-  "devices": [
+  "gas": [
     {
-      "key": "io-tx-2466",
-      "state": "1"
+      "id": 1,
+      "reading": 1,
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    },
+    {
+      "id": "2fb4083b-4224-4521-a9f9-e9a8c488d047",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "341fa202-8866-4475-82f9-66651706d345",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "504ccc9b-b835-4a09-a43e-ac5f052e5edb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "8fff2c42-e693-4fee-b1a4-f88dd6131bf6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "12b7b192-b7b8-4429-b559-84752d19afea",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "2ffaac36-aef2-4a40-8c9c-0e80ff5cce9d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "5937e19e-db71-4279-8fb4-ba4fdeb0b19f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "0f41085b-8b93-4725-98b2-77b747519f22",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "9fe142a1-c3b3-40a1-9e69-175650ca88f2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "d940c39e-92ec-40af-b6f0-57edb6e0bfae",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "a1889bc1-bbde-49a0-b534-762704232d4a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "5f2492d7-71a4-4f71-8d39-265e6b6acd5c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "135b31b5-57b0-498f-b55f-df8feb3935b7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "2feb3237-6a90-447e-ba51-d6c4977055d5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "53aed8e3-5033-4d88-8869-ffc508682552",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "ee948499-acd8-4206-b6c2-8d8a86ee61b4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "161cb1e8-87a7-4d31-bc0a-2414a459723e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "81a21746-c226-49b4-9ef5-f21cf7ae1a37",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "f00f6132-d7e8-478f-a4e6-4e2f76c30772",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "a79aa5b3-8127-4a09-849b-c1e9f3732f73",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "19376943-d685-4219-a3d0-b2d918b3b651",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "af5b164e-de2d-4b2d-9e62-9546a46b9130",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "5e5e3185-341d-4642-a064-0c9b23a27d21",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "9f56abb2-92a7-4080-bc6d-f3d51beb8d35",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "a1ab85bb-12b0-4f6c-a660-cab84c738535",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "13d5b893-d19a-4bb4-9b8d-aefd6c19cf37",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "3fec48a1-7984-43a4-8e76-58abef976ecf",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "349cef3a-7cf2-44e2-b67c-deb67587543e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "9cee9ff0-243f-4d54-a3cc-24f61d90b036",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "010c45d3-85ae-4f21-a400-fb8e3c6f7ed4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "9e545218-c0aa-4b47-b794-5813beaacc4d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "6dc23a00-9ed9-4d5d-b0e5-1e64eac0d844",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "5dc929f3-fe39-4702-a9e8-40585e53a888",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "bc7ade57-80f7-4ca3-ae94-d020ee97acab",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "daa356cf-1ae9-4487-aa2a-9931eba7fd1f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "e43bfbd4-f5f7-4e50-ae5c-4ac7aee6f534",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "25254948-be15-4821-ba45-82dadf2eb1fa",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "3e2b67c2-661c-4aaa-aff6-eb628004c404",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "00940f4a-4c57-4f76-9f9f-1573f7ade359",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "44553cf5-9ed6-4619-8bcd-7a4b8bb7e59a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "58103799-775d-492f-b576-452e21eb2925",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "d71aeae1-6354-4eaa-890b-b712b9505273",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "fa1a3233-9976-47e6-9e19-e438b060bf3f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "517c6a16-cfec-4a78-a8e4-471b8a4b92ab",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "e6f5b04f-e3ed-4ed6-866c-b72eeb354dbd",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "19fc1689-8bcd-4864-b361-a8630fdab9e4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "3e5692f8-8e05-4fab-a8bc-3bdbf4180b9a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "beb31549-427d-4edc-9f22-df5cf27d95a1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "0b392969-75df-4a59-b051-89c05570d375",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "76f65ecc-6b45-4746-9de1-2e12780175dc",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "875745e3-9aef-47a3-9640-d47d9f9fdc88",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "dd52a1f3-4c43-4ed8-8ef2-3382896faa18",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "abf1c721-9f83-4952-bb98-f318c8c2f0b6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "49bebcb1-46ca-4722-aa63-bc31e72bef29",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "2b61509b-3a5f-440e-9d68-2741f6fe4362",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "1de4ec69-e757-4674-933e-27b3860c0055",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "159055be-eae2-4e65-b12a-d9c2f188c8d9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "7d053286-fe95-4f30-9a85-fb484804b2e6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "085df498-f009-4060-8af5-30b2fdc2b258",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "07dde93c-55d6-4508-aadc-2a73ae99a14b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "c5d5aa1b-f265-4bdf-addc-f369f5b9b61b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "5a6733f8-5cc4-482a-8b07-5202355703d5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "40781ec5-5a3e-477f-9f02-4a95cb70cb3b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "e8483119-a745-4b52-b89c-f8644b731765",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "43a3ed8e-2031-41cd-b8a0-5e88fbcdf5a5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "1cdbf5b2-9b46-436d-b6ed-10bd926e58f0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "ebde9f2c-338a-4834-8401-f76caf25c780",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "2abc3c27-7195-4cde-98be-7e6a9bdd33a1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "32a246fc-b35d-4c3f-b8e0-3ea0f89ead57",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "5fc00608-1a7b-436d-badf-0888a80d04b0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "c9546ec3-2115-4491-9977-5f9f90705780",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "2e8696d3-b67c-4b5a-9d48-26c619cf5302",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "1449c25e-b3f6-4f71-b290-edd576aa6b5e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "145c3ac1-2bbc-455e-96c9-ae08e5e1a3a5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "1ea13ae6-608e-4f03-a480-dc889fcc1bc6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "482e7669-276a-470c-8969-d88961db3d52",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "761e586d-0193-4c3b-aa13-0469f5cfe2c9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "3973c1a7-e621-4ca0-8a58-b4922d148d87",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "e175beb8-b434-4d26-bdea-336d239144e1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "f09eed4e-5ef3-4907-aa23-2ae743d1d59b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "d94ca97d-878e-4b26-9798-d04c8e8d81d0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "9e6f496d-efb1-433f-b72d-204f23e71401",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "8ee3541f-74c7-4404-aa07-e804c36463b2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "354db552-dda4-4ceb-a23d-f38eb90325ac",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "c48cc946-0722-4ad7-97e4-0bab8f063bef",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "962e989a-bb53-49e5-bab8-fee921abaf22",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "fa337903-1d1c-4ec9-a632-6a126278cfb3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "3af08ea7-033a-43a4-93b2-c184ca76380d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "ee86bff7-84b4-463d-bd5b-71ae06a5256d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "3eb8e832-7a0a-4c7f-b1eb-1f039b7968e9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "aeb3b6ed-95fa-41b1-af7a-54f4e6c78c3f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "553cb41f-203d-4e8a-9ddf-c0f92d34bc4c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "17b03eae-856d-4274-946c-633ae8725d37",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "9f10f014-44d2-47f1-8137-162b2561b581",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "f737a572-29e2-4009-93cd-4fa3b2ab2609",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "a3c9f05e-7f1a-4ca2-b892-dc6e0177b5cb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "c73645be-50ba-4132-a0b3-930e4abb3095",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "ec842838-f714-40cf-8092-0c1de5b161a5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "c4e8d573-263b-4813-8449-954708bcde11",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "3192dbc8-d089-4166-b406-2dac7ef01673",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "907bd3b0-c043-4383-b883-54f5e775ac5e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "bf1bc43c-b30c-4265-8fea-1c80393faf1f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "e4386f97-0516-41a4-94b0-70f15f903655",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "e2f13851-ee3c-44d3-b6a2-cdf555f4b57d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "2e87905b-afe3-4068-8074-43ddbc76514f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "638004d9-0093-4dd0-9bde-ea3219eaf6e8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "df296231-e45e-42d9-aabf-1b8f7502d98e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "8fe977e9-241d-41fe-b08e-cd1a9a7cca39",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "98c4ce6e-dac8-4ecd-b09b-7594367d18e4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "bda9ecbd-e934-4843-9dbd-e79546fecc8c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "c39d5c61-265c-4697-b7f7-a7a68151ae05",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "20f2dfa8-a9a5-4a96-94b6-d5235281ff28",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "9451d790-6336-434e-a377-48ca1e504148",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "9a6d856c-a8c3-4c40-a0a0-4fb1a5991696",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "00e0df7a-bba0-4fda-b628-b2204de6bd76",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "801d52a8-c9f8-411f-8dea-52e83b4d220d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "484465e7-0b6c-4829-8ed4-87150e7014f4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "bf654432-c3ed-4027-86c3-2629e8c54ae1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "8d913c04-b0c2-4283-b122-c1e7e1702c89",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "68b85300-3b3c-416f-8fd2-5386f560373c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "d139297c-0513-4a22-9d82-46a2b639c61d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "13976a0d-2c10-452a-aa28-8d73ae125df3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "4a173a3d-6495-4c4c-b426-3fe3fdb8062b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "74ed1ae2-3207-4a9c-b76a-d9afb5b1ec70",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "8f47a9e3-9bdc-4d21-95df-80781b47cebd",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "7a8f8667-3720-4627-add7-d81f23d1615a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "c3c98c45-9b22-4ed3-a0b5-feda5ca53237",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "deea5195-22dd-4ed1-9814-78dc900c8762",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "253d09d6-003f-4005-86d2-b89621e17c5c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "6d08bf51-66c9-4398-96d3-e81e283eb1c0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "abcc1de4-cb63-464a-857b-6b4733ad3e93",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "668e1773-2773-497d-9da6-65562a52ac13",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "f75954b4-50ba-4249-b3ec-000b98f3d9b0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "2a8cb779-c261-4de0-a36f-05a8d8c6e867",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "86dc2525-8698-42b6-8f58-407dad63abc5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "0d80c28c-1332-441f-86f6-61da8bd1e51e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "36e26622-86e1-49bf-a3bc-5d3610ae540f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "aa394e50-68ab-47d1-b73a-a386aecc088f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "08c2e16b-0ba4-42e5-a9b2-622eab3a5d14",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "42c6032f-44a7-4403-a264-09acb78258f9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "ed62e438-4b0f-4db6-8452-7cea882b0025",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "f2cb2b85-a23d-4207-89c8-7a7d351021a2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "c21c40de-98ce-48fe-8cb1-9140ec8f057d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "ef873e0e-a862-4f0f-8b8d-69021a14ca58",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "b64ad99a-042f-4ff0-9c68-077f88377b56",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "461dab1c-bfd3-4b32-99e0-004774baa0b3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "8b2c7be1-2cf9-4f55-81d0-5a671ed21033",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "e000f319-b727-4d86-a385-16651245d756",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "3e4d1faf-864f-44a9-b903-4755e93de3d1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "7090ea21-900a-414c-9229-3ccf9b749f2a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "ced9df95-5920-4561-82e8-9259896c2c78",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "8215a830-6323-4dd8-8d12-7bd1ef955cfe",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "301520b5-20f1-4bf5-bc7c-54dbf5a4c43f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "06547a41-7593-4d00-9c5d-15b8176d9b54",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "ffc73167-5add-4c6d-a51d-e73aa3f3d9be",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "96b5f672-8a26-4ea4-9c54-ba4e3507cb21",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "afbe7e76-dada-4bcf-9915-ebdd7afd2396",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "26be550d-6caf-4b68-97ca-44fc3ff99e12",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "67208b89-7761-4b80-865f-064630735960",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "45f06ffe-a46b-490d-943d-a9511a0fa588",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "daa235bc-8511-414e-a60b-2ffaea05b6c4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "45e2c76c-7518-497f-88dd-418da54b2f18",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "872d9b10-e807-4a64-bf8c-918bb019440b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "7ebef486-9970-46d9-87ac-d650c639e76d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "aab9d289-c8e5-4aa7-9278-f45a14afdb6f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "0b354732-7aa9-4e46-8358-1a6dd23df336",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "df08d6ae-8ffb-451c-b6fd-a6fc4880e6c8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "75887dd4-22bc-46ba-b936-f3d09774f96d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "16513f9a-725c-4129-9a75-a5e46f49b975",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "1f0f4d98-0aed-4fb7-86fa-49b0f99b0b3a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "a65fb399-7c5e-4f02-b667-facc7b552deb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "8678466d-8eb0-4de7-8150-c403dfff2de3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "9d175a9d-cb8c-40c4-b709-967b6d3938bb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "4c107e97-dd5f-499f-a094-43ea4130653c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "f73272e2-47aa-4757-9210-09b2169cdce0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "dd27b223-c118-4bef-a58c-8767bcf38ece",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "07e77e33-b8fc-403b-add6-82d29635c740",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "5465c6ee-8f94-4f86-a40e-c97f3ce4149e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "f58e4ce9-60cf-4090-8668-77179cc5c587",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "d118c344-95d8-4af1-8f8d-d4ea10c9c7eb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "d7ad98ba-e39c-483b-85bf-cb04d16c4deb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "f91c7876-7c66-4c74-8db0-3367b71291bb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "931d849d-3500-4766-8648-99a076d3e279",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "df6fb06c-1a3e-4fd8-a533-3a3a675099e8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "42171eb8-c7c1-403b-a8e6-11fb2fe4a810",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "f2bc09f0-efb6-498d-9f89-3be8b6c113c1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "6342755c-d706-4114-b371-32853bd5ef4f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "f593df0b-f565-4c5b-bd61-0c5d307da7fc",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "28c9105c-c6f7-40b8-9186-6dec41c4989b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "d3bebcec-e0b2-48fe-bc41-81b0277b33f9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "5fcaed9f-20d4-46c9-9662-2a3a47a09b4b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "d7a352d0-b3b7-442b-9b24-1c6a84fe00a5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "6fa91f19-7bf9-48a1-aed4-2030a85e4e6d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "d6da5d70-941d-48b5-90a7-e75a8e2278c5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "a831b39a-2689-4556-ae0e-e8445b09632c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "29d37e12-26ca-4ee2-84af-098a1bb3d980",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "e6a0bd6a-10a8-4908-80a5-0039725846eb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "e917a5d2-a5c9-4451-b246-21496a8e7fd0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "90621be1-9efe-49ab-a54c-210067a01809",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "c1a3ad12-b175-43b6-8161-b3c404b0d20c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "e02cd5d5-3ca3-4afa-806a-cd0769a1769a",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "648a8ef1-9c27-4907-a6fa-af52da52c330",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "35699653-7208-41c7-9783-7409b2fa7d06",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "e29a47fa-4e9c-4794-88f7-019d381aeded",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "e26917be-4459-495a-a7b6-6564795746c4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "a6270185-9620-49ae-9bd1-d2a65062eb85",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "e7fdfc23-15e6-44ae-9416-29b6508fd210",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "7fb432b5-0b7e-44b6-9dfc-0033a1ffd5af",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "9b67748b-443b-44ca-8fd7-67523c035d7c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "fbe2b242-3520-48f7-a412-0c481b0168a0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "8b7d39b5-a3ab-46ee-b361-ec949f4cde40",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "828f0bdd-652b-467f-973d-c5eb0e192cf0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "f1310010-1a75-4c8c-8b27-52017d9e9d87",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "426579be-fb8f-43cb-8434-aa30d00ed934",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "9604d48a-c92f-456d-8aea-755791b3204e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "a60a0182-a4e6-415b-94b4-6c88a333c99b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "03006b2f-4443-46b9-a13c-b7be276aad07",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "86884713-9c3a-410a-be49-33cf03b114f4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "d36bff0d-c4fb-4eeb-8261-5646fc0c8fbb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "f75be84c-088c-4775-a83e-cf14d4ce2c59",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "42d69885-7849-43cb-b5c7-e52dad815be4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "51aae29d-4899-4525-bf94-ea5c0a407ce9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "6d704560-828a-4384-b29b-9d9afbd4be3d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "85fea612-6029-4e21-a318-cb42b42d14ca",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "1d72035f-07e3-4fe7-85d8-13c32a8fe882",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "6af28cc6-0ea0-4460-afea-14ea4ab276a3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "69a65087-2473-423b-b24d-130fd267ec6a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "30ce417a-b076-4f8b-a814-a96992ebea0c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "84a8a818-e3e4-4573-85f0-dbc0e795f046",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "cff055a2-0b3b-471b-9a15-b7a500846bda",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "2d269277-2152-45b8-86d2-c61bba54c212",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "4764954d-da04-427f-8ecc-b2161301c51e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "12c8bb2c-2681-4887-9e35-7c7d25911307",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "f7064038-f4ff-4116-a400-77263979a97f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "846c6a76-e900-4ab6-91ff-237b57b7c84e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "438e993c-16a3-4265-b261-8e1192afa18a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "35b9c10d-5b06-41f4-b699-5362bbcd080c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "f71d2c21-0862-4c09-b856-a8790ad73ac6",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "43029574-bb1f-40b0-b4fa-763e9911dcbb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "72875791-f038-456d-91bf-b1b9ba154561",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "49ae678a-bbf5-4c84-a057-84f5deb2af5a",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "5b04c508-2587-4916-abdd-278136eb4e7f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "69a5cf48-13ad-4942-bd6b-a06f765a4c94",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "885daba6-af73-4bf6-9be7-a21f7b7e0c32",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "8985ea49-8b4d-433d-a6f5-1236f0f73656",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "94a04d0d-0e34-46da-a728-ff5c11f16aa0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "101fcc7e-0852-43cb-b8e1-8f1eea45e98d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "ec37570c-2a46-40dc-b45e-558d73cd4bf8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "9786a212-3b44-4407-9b73-e85e5f30b16b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "27041da9-b61c-4896-bd4d-11b8c507af9d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "86101054-07a6-4c18-9912-e592a05ec2ec",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "9dae8955-c8f1-44ba-9225-4333344aa9b0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "ef2cbf08-36b7-4c34-81ac-aeb54f1ea02d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "be4f677e-0520-4e29-b9de-af2b21fcf881",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "05c8c098-b178-4021-b341-690df203eb1e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "ad28dbc0-2d8a-4801-b756-187e9165ee53",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "be4a4c9b-05cf-45b2-9e48-46b5e90b724d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "70ca5382-78ec-4a1b-9d24-8025b943f172",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "6e5cd8ec-e2eb-452c-88e2-4547c08fcfd2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "cea0eba0-deaa-4409-9e18-0ef365545aa9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "762cbd78-e700-42b9-8bf9-26af25f47c46",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "ef0b597d-d038-44ac-ad5f-6946bbd634a7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "bad8479b-3c8d-4382-8a08-d46e0fe41fb2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "581dfb62-b6d8-4f65-8ce1-ea8c2ebe3792",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "f32bf1cf-dd06-4587-8c95-58daba49c4fa",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "d3410c82-3b7b-4beb-942e-8eee6a2e442d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "637a8e84-dd21-4a35-b822-2b840eb42416",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "948efa7e-6017-4105-aa28-0a098c4490d6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "47029e85-9238-4a2a-9ce8-70126d0a6882",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "c945182f-d06d-45cf-8fa9-781405a4fd32",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "6d778d7b-d798-4362-8f9f-93d909bb68cb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "a485b974-7b29-4ee6-a2a0-9d1c0852b7d8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "3beacbde-f361-40f6-906d-09e994425d4a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "cb4d19b6-8973-451f-8fd8-da1d240c9dae",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "e4b6c632-ff38-4f23-8ec7-f619d03ceacd",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "cb743072-f6dc-4369-9753-4a21f26934d8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "492546ef-080d-44f2-8a62-175409c161de",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "3426c631-e851-4e3a-9069-cfefd1f4f652",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "d8c3c3d5-e58b-4e68-b6e8-e8fb2ff0d115",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "dcae3859-dc19-4141-8feb-c850fb0b3ced",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "e9b9fb96-b15d-4e6e-aa83-847631ba5e1b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "c041fb8d-2f96-471a-b6fe-5fc875eac26d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "9fe95c07-a4d3-4538-ab92-c41ea89ffa85",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "67ae28b9-5f1c-4fe9-b7fe-1335e67784fa",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "8af2aa89-f1be-429b-82c3-6009a4bd8daa",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "9f04643f-3fc2-4859-afba-953546c8ec36",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "eadd47a9-a41f-48db-882a-6f58c698f76a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "8613ae20-9db1-4fb7-ab31-a62108c8ca46",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "1bbaf986-8918-40b3-a2c1-02c7817e7d33",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "0cedb03b-66a8-4a25-b874-912757e88780",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "9bcd0a46-9c35-43ba-9c57-63ffca3d1b78",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "133f7ba2-dbb1-473d-a32e-c07479c0df3b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "89d0a03a-a18b-46ee-9cf8-45e3d9dcf83b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "3d9282d2-def1-4f4e-ae89-059b94e19c73",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "bd1cda21-0e0d-4da5-b4b7-0c11a83688ba",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "1d0eb02c-f165-4a7a-be17-c91918f22d6a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "f8e998f1-2bda-4314-ac1f-c9e0c17149e9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "880e7f05-3027-48da-ab29-c050f8c6de5a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "d404f721-e677-4307-81d3-b64c7f13343f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "010f51d0-8fb1-493f-b183-6559e40b5008",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "860ea067-3f69-4285-a5a6-df933fb13352",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "b567cf4a-8035-441a-984a-927d83ef72c7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "3399e23d-fb9b-4a23-acda-4f280dd1c873",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "e4921d70-34d3-4150-8d6e-bb088f2f4462",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "815f01fe-1f1e-49b5-88a5-24f26a567430",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "8eea57a2-dd87-42b5-85a5-185f7ba2d1a3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "8f5033a9-1c83-4749-bdf7-b55d3f6d9e53",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "29093c6d-5cff-4dcc-97c4-86c5aa409400",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "bc2b3e6a-e966-44ce-887b-ee88ef9f1108",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "53d56b81-ac1e-48cb-977b-009fc0b9cd81",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "a08483bb-9df0-4d89-824c-cfba1ce08a42",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "baa663f7-4c6d-4914-80c1-cdb36eae4b82",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "1742f3b0-174f-496c-96a1-4c5188aedb81",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "b06e6191-e9b5-435c-be77-1ebed5e13e4b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "d1a174da-aefa-4418-9770-0a9dc6abaf26",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "31190aa8-fcc7-49d5-a3ef-34a3d786c917",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "e7b6bdc3-05aa-4acc-9f0e-19c772a5b7f3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:20 PM"
+    }
+  ],
+  "capacitive": [
+    {
+      "id": 1,
+      "reading": "touch",
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    }
+  ],
+  "flame": [
+    {
+      "id": 1,
+      "reading": 1,
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    }
+  ],
+  "sound": [
+    {
+      "id": 1,
+      "reading": 255,
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    }
+  ],
+  "light": [
+    {
+      "id": 1,
+      "reading": 1,
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    }
+  ],
+  "raindrop": [
+    {
+      "id": 1,
+      "reading": 1,
+      "date": "3/14/2019",
+      "time": "9:54 AM"
+    },
+    {
+      "id": "02916213-468b-4b83-b665-2d0b21eb9dc5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "f54ba27d-6717-4695-9636-1788b11e0ae6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "1270e656-a205-4eaa-9b5d-95c013db8f45",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "09759b25-4a45-4d81-a94d-a84f8b7b88c6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "d16c66ac-64b2-490a-ad69-ee4149200275",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:37 PM"
+    },
+    {
+      "id": "a542c346-a52d-473e-a1ee-c74994c8d89b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "c3e27e64-8fa3-436f-8389-a362f668ba7e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "ccae72fe-148e-425a-93de-89c4040df6c6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "6f2b980c-f4dc-4bcb-9450-e35330dfb6cb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "f920e9b8-901c-43f7-bc56-01a297f57bc7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "612f373d-5f6b-4bab-be0d-9099a06c4d5f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "761616eb-6ac4-43b2-a63b-b08117a2a297",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "8f05c745-578d-4eab-a5a8-7afb4f8e8fca",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:40 PM"
+    },
+    {
+      "id": "f3ccc75e-70c1-4d41-aa32-52aa15466eae",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "ecdae1eb-6492-43a6-8de6-cc7d0256c968",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "d6d1ca30-0dbc-4260-b20e-08c2420c5d24",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "b5562933-d31e-4af7-8787-fddbb490c2b6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:41 PM"
+    },
+    {
+      "id": "33024961-54ee-4505-b8c3-8123b624e946",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "b7f65bd6-9102-4782-bb52-1146a8a23fb5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "c8b9ab5e-d5dc-42c1-a62f-b0cd519381bc",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "172ed276-fdfd-4352-886c-463c871c519b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "58f0c1d9-30c2-4b5e-824a-c4eab1a8147d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "4e121910-48bb-473f-b475-4a694f84f998",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "401f13ce-535f-4475-a5cc-37b2c7cfd904",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "2137ad8d-37c3-4475-b47a-e397ad67ffb8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "9541f051-4198-4f33-8df2-c8e3cc1bd8cf",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "5d0bd8d9-d12b-4c6b-b6cf-911bd1420129",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "60642945-e337-4054-9b92-6c944168e37b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:48 PM"
+    },
+    {
+      "id": "6383bfa3-e4bc-4887-8cea-ae272072024f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "80112563-301a-4a2e-afde-7bfe4e18075b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "9e6ed82c-7b3d-4e56-a6aa-7a4e786408cc",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "36b48f55-a466-43fe-8875-ce6e102b5ae3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "b614b909-c423-4500-ad35-7fde2f92d181",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "495e8ea0-1534-4204-bc8e-e735a71fa238",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "0846b16f-e22c-4d06-83d9-a6025cccbc9b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "7d0f9043-413a-4149-b3e7-aaf6a84b5513",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "57f9057a-ec0a-47ea-bea3-257698e2efc6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "27e6430f-e41b-46d2-8c67-51cdb99460d7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "40313ddb-c65f-45bc-b6d4-53e9c898513b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "24f4f20a-a198-48e6-8e21-0cc690f537fc",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "fb43abc9-fd45-4cff-91fc-e2fb1b9bd456",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "0eca4762-930d-498a-b175-832fcd163fbb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "807a0ef3-d180-46e2-b3f4-69141c5c86cf",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "ffa1c67c-b135-4b13-98e2-98fa2b9f85f0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "4f6df46c-f085-4138-a4a3-addf8ab4cf79",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "6e8e495c-bb66-484a-b47d-86f23f2560b6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "d6199680-435e-4824-b72a-6ebdba48e1e1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "d315f002-6b59-4859-a827-001b6b235d85",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "e367f012-0499-4d1c-b97b-d02d25efdb76",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "db4a2795-849f-41ac-a465-bbef6df7cf93",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:49 PM"
+    },
+    {
+      "id": "06396720-887a-461d-8b3b-533438c09da5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "36c1795d-3dc6-4f60-a81b-ff8592adc893",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "264897a6-fad9-4c73-a1d2-c9db83840a54",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "dbb5c268-7b86-410a-abb5-a93bef08486a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "c92c18bb-e277-4139-b87e-d23cdc9731a5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "65752bc5-4444-4704-ab39-0f6c82b54eb8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "f039922e-cd62-44cd-894f-129017eaf117",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "19b4f720-8db0-44a1-928f-e909cc17d3c1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "e31bd193-b5df-457e-8216-979ab92bca75",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "923d2349-63c2-4de9-aec1-9df4bcb67b7c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "6ef7f3a7-a3b5-4ae8-8753-9a52fb9d30ac",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "2986ad50-4c98-4fcc-aff9-1a274f1d9e88",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "0f502229-d98a-4786-a397-1f2c77b319ff",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "eae1b068-c22f-4e6f-b073-20740c8fad60",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "3d00ef3e-3692-48b1-a8e0-6db3627c874a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "2919ae6c-680b-4e8b-a412-a90379382ff2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "4dd51f59-23c1-4603-96d5-510ddaee3060",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "1fadf350-64d7-481b-a8c3-d7eb5b03a85f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "7a68df16-2daf-478c-82e8-2672f62f535c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "cdf8b031-0a17-47a9-8bd8-256b088698ff",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "d32faafe-0f5e-41c3-a02e-c26d76fad433",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "6f20b21e-5213-4b33-aa40-6698fed89de4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:50 PM"
+    },
+    {
+      "id": "fae417ce-f2bc-4cc8-8ef2-c62caff6ba51",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "abd4b246-f1ab-4bec-ac51-f1eec940a9aa",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "9207c8d6-a83f-4496-ad2a-f1928652dc8c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "40d1a0b3-6172-4315-b41c-d9d10a483ee1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "db0ff7d1-5d11-4225-82ed-b4cf417213a4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "b03b2ae5-3d11-44e2-b898-58d47826d7cd",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "84985780-8cfa-4d6d-8dca-6ca7286f4c6f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "96f92ef7-2a29-4704-a024-ed01c580ac26",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "a6218547-fbf2-4d9f-ab28-39b671cae488",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "7d8410e6-babe-4d3e-873b-88768993a26d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "e9c056b6-be33-42ae-82ed-580ad879fc31",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "6b4d535f-549b-4236-a3ee-bfed30f3cca4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "0a20c368-f9b7-4e22-9ad2-2d806932b729",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "46226835-6f1f-40f0-a847-223590a0ce7c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "9160f9a4-9b54-4ae7-8ed3-8156af1ba534",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "3ed23995-7d24-489a-895f-73c8fa233c17",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "dbf0a2c2-44b0-4273-be98-18db83da22e5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "84ac4f5e-1883-4891-b5b3-b75dcd6676b0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "9a47eb3f-b3c4-488f-ae34-9fea556e0802",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "b7f59122-090e-4213-92f2-5ff8c9425562",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "8314a234-3b73-46f0-bc35-f9ffd490e0ed",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:51 PM"
+    },
+    {
+      "id": "53c70b6c-e3c6-4685-bac7-61609477ab68",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "782719e2-b0d6-4b08-ba76-cb1a5003e0bd",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "f9f94dc6-e1f3-42dd-8f58-5aec1bbe3d0c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "54509148-3f13-427a-a709-97178793e564",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "6993a7cf-a844-4a6f-aafb-b3b82aed7fb4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "750e0ca2-ac23-4538-8e56-2f208a7e39a2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "39d617a8-68a7-4117-bb42-946de68adb8e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "bbfa91cf-9c61-4c7a-889e-07c1aad18855",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "b25a4763-2ffd-42b3-bfd3-644ea9482822",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "f1c3c34d-b337-4d00-af2c-bce9d6bdc9c0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "4e692f6e-5d46-47d6-8633-54df403928d9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "bd61d9e6-d9bc-4684-80ed-3ef870da3176",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "26fbe8b4-eb7f-4c58-a37f-41ce70c7928e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "67849469-329c-4afe-a97f-2007a1dd5727",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "075f1a31-9228-4dee-9f38-624464082697",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "2789e79d-d701-4af5-980f-dd5c6141ee11",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:52 PM"
+    },
+    {
+      "id": "43b589da-f3a8-4c3e-8235-381c11124937",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "c5b0162f-e6d6-4fbe-9bc6-a55227bff382",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "1034581d-6938-4b1a-9a90-27e8ead0f736",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "a32acd3e-9b5f-427f-b81f-2d638414875d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:55 PM"
+    },
+    {
+      "id": "bf570c3d-e45d-4762-80dd-9dc813709dc2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "e0d6a221-dc7b-47a6-b5ec-49f4061521a9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "198b7a19-6861-4550-821b-5f9bea944b73",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "1:59 PM"
+    },
+    {
+      "id": "e27c244b-be17-4265-b31b-634870352153",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "11d14abe-4d0a-4dc2-9db1-03fdcf34ce06",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "b105d60f-6a82-4366-ba62-71c853a9e382",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "621a3405-db3d-48ea-9522-d802d541d8d8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "fbe434dd-5d35-463a-b98d-406b076a23f5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "65a8f922-ae21-492b-a927-6f579506d948",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "a5424726-ab31-4036-9190-51797901a66b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "d449f102-d6bc-46db-816f-03b4ca4a0420",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:00 PM"
+    },
+    {
+      "id": "7c32db65-1350-4417-8eec-979fbf2f3066",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "65e3d657-1d3e-4e9a-8f42-ad3ff6ddc212",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "e96bc5bb-a4b5-48ff-a502-d9e7c8be1a79",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "325c1f08-da21-47ed-89f9-bdd9f8752688",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "53c03242-1460-4dff-985d-d6a5a811c22c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "b2d12bb0-3d89-4cc5-aab3-952b64a0ed78",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "ec24124c-1154-491b-aa37-863c42f2cdda",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "c548ae7d-8e72-4c00-bb0d-7e53c860ca9b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "2:01 PM"
+    },
+    {
+      "id": "4da8c4b0-2a8e-4fd7-80c3-12259212674a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "47abe2b0-9cb9-4eb6-aa67-85410e983eec",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "42785e22-9564-4799-a37c-3201bc6232e3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "cd62f401-4418-4372-8f29-54d70b0ee1b3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "30f7a8ec-1563-4d31-a75c-3cfe9c1d0cbe",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "2c73c709-1f47-4f2f-aa12-2d5003c7d894",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "593c2d93-d305-4e79-a815-6805b728a996",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "f9414169-aaf7-453b-82af-7ee2c90fcd37",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "0f90e01f-dac0-4948-8906-b9e93dd85f3f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "40d4cfc1-46b7-4a9b-a476-29cb495d3fee",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "80d4ae39-0b68-4cf5-8174-421e83fc3784",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "02f97254-3cf9-4bd8-86aa-6177a6135dc7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "6e66467d-3c71-4120-a997-cf77990c982c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "12339855-01d0-49a3-af8a-242242d51635",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:02 PM"
+    },
+    {
+      "id": "36c6b83c-ea19-47ec-95b5-5b2684243d4e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "9c0590cb-0dfd-416a-888e-ee7445bad842",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "1152f246-5838-4553-90a4-d475c1349fea",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "ae2a9e47-e709-4933-9bff-23c28be6b03f",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "e8268bf9-6cdc-4d6c-97e9-394a4c1945e8",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "94de93d3-adf7-4def-b129-ec62cdf391a4",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "3b21f753-3231-42af-acdc-5294d276294d",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "4d8025cd-431e-4ade-9aca-841e4adca4b1",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "7a04742b-3fe4-4aae-a0f5-e548519e9de0",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "797b7581-0378-4ac1-a795-d3f10713ce2a",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "9cbdae91-3ca2-49e4-97ec-09da46872655",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "628dda28-0dab-4ec4-bf24-f0af46aab4ad",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "c855ace3-e632-4ee2-80e1-74bb89de61a6",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "00a65a1a-8319-46e4-8925-ddefca5c1f6a",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "7c55feed-8475-4187-817a-bc4ba955aa71",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "910b706e-bbcc-4d57-90e1-a478bb2b9edf",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "10384cc3-da4a-4483-878d-428ef1700e80",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "46f20c4e-d310-4a0e-88a1-0acfb0c2c070",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "6e15db73-81af-43fc-838b-17da0f6ea79e",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "61c46bac-4434-487d-86ff-5e9b43328a03",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "af0ebb05-bd9a-47ef-ab11-0174783181c0",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:03 PM"
+    },
+    {
+      "id": "ae06f89c-d07b-40cd-8fbe-fb5979da5b24",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "0dfdb1ba-a69f-46cb-abd1-24c4e60fb822",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "62044fc2-0da5-4d0e-ae3f-cf220edc217a",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "1def4568-1584-4196-85c8-4ab68dbf4c4b",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "4a9adce3-cea3-4497-b8f6-7f5da3699af9",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "cbf2fc18-e695-4178-9338-2b4858e8fd8c",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "b731ecbc-2624-4f1c-980c-c3d8940e001b",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "50176d21-ad20-4371-b875-0b20536e0e14",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "0f9b77ac-cdbf-49b7-9331-aeab82e36e0d",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "edf71236-aa5c-4913-970f-cfce76282653",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "c9973b9d-3654-4cfe-84ce-dbbaf05c3d29",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "4bdf7c8a-885a-402a-a2dd-3616fb3bd0e1",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "0fa244f6-6b9d-4be9-b365-bda0bdf153dc",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "61ed093d-2547-4e63-b524-acd759c50763",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "360919e8-9f23-4dcf-a565-cf40d76cbe4e",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "d1249b79-92a6-4a96-bb47-e819253c5e70",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "298bd4f5-2193-4d76-b9ad-29c99fa64f53",
+      "reading": "0",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "6f3b6ef2-6236-4e36-9ae6-8db6c253217d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:04 PM"
+    },
+    {
+      "id": "1a1cbfb0-c64c-4180-81b8-f3336f12ccbf",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "b9c9e821-1a48-4c5c-9546-8575ef9e0f9a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "265dc06f-fdda-4203-b2e5-5835b471b860",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "617bd601-4705-4ba8-830e-629c3e52026b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "2393b5c9-9804-4cee-a99a-fa6ec780791d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "c791405f-dd98-49b7-aba6-f22d23bb94c9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "b0e36326-9162-4807-be0a-f58b6d4a472b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "0b61a50d-4bb3-44fa-a685-e54b4f6d3b46",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "cba56a40-4edd-4bb6-a6a0-36e9c14d0ce5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "5038a75b-6a0d-4ad2-8c5d-91d0aa3f2572",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "2b25da57-ac42-4fcd-959f-a623e106c10e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "496cc032-8a56-4b77-a54a-cf164a66d8ee",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "13d85cd7-8eb0-4cfe-acce-00ef1cbc8cc4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "ba05f42e-d267-476e-9f74-d6785b47aae2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "5ff39059-e283-4eaa-9471-7abae343cfe4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "d311ade7-bfee-40a1-b7c7-570c1b5eaf54",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:09 PM"
+    },
+    {
+      "id": "21a82009-d7ff-46d7-9c5e-79cc1585bf66",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "2767b8e7-5a77-4bf4-8adb-df50539fb411",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "bd939b78-9250-4d37-a583-96033a737ea8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "7f72c5b1-6821-4363-9b5c-4715aa49f5ed",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "d4ebce78-0c08-4b4d-b595-f30832538b12",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "15c9ec5e-639f-4704-a71d-eb2583684fc0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "c089e05f-4ffa-4341-9a12-190baf97db4b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "9c3435ce-00dc-4307-9a34-6fbfeeb6cd13",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "f1a6f779-9d25-467b-8410-da5d25a0b845",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "1de40a91-8b5d-466c-9bec-2e7f4a33aa1c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "65f1f188-264a-457d-9c6a-85f0d24de713",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "914f4fbe-e58c-47f3-9361-d787b9329e3d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "46f1981b-4397-42c4-8edb-ef09073ed6b8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "aaef0774-582b-42ba-9247-d93142cf8686",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:10 PM"
+    },
+    {
+      "id": "57c4960b-7288-4b82-a195-4fe7f454a811",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "9b6ed842-13d4-4d89-960f-d3f75a283ada",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "150b3344-7898-416f-82e7-84f05216ec7c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "2d6c0e82-0038-4b39-a676-ce84bfc8cea2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "ce78bbd7-3b6b-4fc6-9772-38b0471f067f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "520d996e-7cbe-4bfd-b4aa-8277e611cf1b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "98781102-e87d-40b2-862f-bb430663a035",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "f5909707-0fb5-4102-b13c-a97fd7c9723e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "1c680044-9b17-4196-8f91-f23dfc9cc8e0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "a0d5947a-dc81-48f8-bff0-dc2e0fca71c4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "13d63fce-b17b-476a-a6f0-93d708757240",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "fb76ff2c-1819-4c00-91e6-20468993e160",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "8d791be8-6462-464d-9aa6-6cf39807e780",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "b97375f3-5b2b-4b30-a62f-9dd153b7c536",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "ffad6bef-0b16-4d90-8a51-b193f979a1e8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "f897cc00-d27e-4094-996a-d0294f83fd25",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:14 PM"
+    },
+    {
+      "id": "b99ad92d-4e60-45cf-a83f-b5cffda5cbce",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "c9799e3a-6781-4d71-934e-42cab56bcdd3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "656eec44-e73c-4aac-9979-753149f7edb4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "34cd03a4-8020-45e1-8725-0fee349c4673",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "967ea462-ef51-4ec8-8ee8-cfcc4b9df989",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "dbf6afd6-5528-4e67-85e3-3d86b462d49b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "c982d99a-b0cb-482a-b89f-4550c6fcc4d5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "4c44c316-1d41-437d-b0fd-b448d1ee38e8",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "b6ccf3c9-9d96-451d-b305-bd945465e03a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "c2500232-4e50-4bfe-89e5-9f59d18dbbc6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "aa48d7d7-5eaa-42be-b335-fcd24b26987a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "fa083f54-f33f-4d2b-8803-a3689fc4af5d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "67d4cd8b-a98a-486e-94ac-7e1d06003c5e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "7fdaa475-c644-4fbb-8e92-f20d5a0cc135",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "5438b3d4-d58c-4658-a3f8-f8aaa3743b73",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "a941573f-3ae3-4d57-9825-507990d5eba6",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:15 PM"
+    },
+    {
+      "id": "28c9ac44-1928-4fcd-9e99-fa63ac3662d0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "27c036ad-dc4a-46e2-8164-3ae9299c6848",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "051bd744-f141-4a0f-be55-e97fa6ba7ac4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "f42f313a-9c46-438e-a79c-c5033d199c91",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "94083332-fb09-4219-a951-7390d88ccd2f",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "53677f89-4c9e-4661-9df0-5dcb5f3dd58c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "0165e2a5-386d-403c-8b34-478ce36c88ce",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "500bc1e5-b259-47a3-9d69-0d3db7258a81",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "954aa2ce-4bf5-4249-b8dc-c435364f8e95",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "fa5eb4d6-cc6b-4cf4-b120-154106ffd9c2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "8c6bfef3-1a5e-4aed-bcfd-66e79211e7d3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "44d41704-887a-4cd5-973c-3b2d38555863",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "3768c55d-fd2c-48a3-a3c5-bca6324d4cde",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "149c21dd-6b3b-440c-8538-bdca76c209b0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "0946b478-a086-406c-95f5-c8a9f1ba7257",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "da5211d0-82b7-4795-979d-3c3205459074",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "6e0c536e-6c35-4f00-8bf3-d9f409cd92e3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "ec4d72fe-984f-432f-a8c3-cfafcadd0d07",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "9a84cea2-bef0-42e5-9828-9fe255227aed",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "6af541bf-27d9-401e-adfd-07a20578ee3d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:16 PM"
+    },
+    {
+      "id": "fd7ad517-9e52-44e8-b412-635a8e92f1fe",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "cfc6abbb-ed74-4443-9279-855d7d1f4d02",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "1ef3b52a-8fb5-453f-a776-83ceb0c097c4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "2454dfee-0f29-4b77-bd15-5f24433e53a0",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "a99dc7bf-1f6c-432e-868d-6e81c4d89a1d",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "ecad948f-a676-4c2a-a466-5dbdb439d960",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "4db4cdf7-b0fb-4c78-8f6c-f9f979ab11d2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "830a7656-50b9-4476-a11e-942fc0f59554",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "51cab125-7025-486f-8b45-bca2c5ecb2fb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "4c100e68-a293-453f-8b13-1378e5454511",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "42df02a1-9a40-4825-a552-68c374a85b83",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "f841ea3a-3a53-4e0c-b478-91ce2ee04b14",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "173d84b7-cd93-4e51-9956-ecf904c0c34e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "55a04cc1-ae43-42a1-847e-e42fde4a3c90",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "fdf7e76b-06d1-4da6-a1d9-a4851347cffa",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "7bb1aa69-51ab-4bda-9d07-275c42c6b5ac",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "158220d6-7c0e-49ea-a073-fffd1ac86051",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:17 PM"
+    },
+    {
+      "id": "00aadfa4-043f-492f-b962-3ccebd4bd502",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "7eedf7f0-32a3-4c3d-b581-c98423cd890c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "22dd778e-90e3-4e56-9bac-8e06a89ee72a",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "0da018aa-e3bd-42dd-b63f-8416a48fa2ae",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "15bbbf8e-764a-4b45-ab1f-c2286b3d09cc",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "d59a2195-fa92-4033-b4fd-fdd91325b875",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "5e4cd10f-932f-4407-8927-918f1dead9b7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "d76224bd-4dcf-448c-b038-067da77171c7",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "8aab7657-4819-4ee8-b606-7277100f517c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "e1a2248a-f1e9-4796-8eb7-32bbe5837cbb",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "4be3181c-b9eb-448b-9176-65b5182d2aa9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "4ed995b6-5ab7-49be-b2aa-2ebaf9b54071",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "2425008f-d02b-44c3-a6a9-63c81f39021b",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "a72a6123-721e-44e6-adeb-acc6d60a45dd",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "2f8535b7-5534-4f2a-9d44-2d77e59e08c5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "7439ea34-9ac9-4a1a-ad64-758d3e3d009e",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "2b23f7df-f335-49e8-a41a-e08c9e494720",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "b737ecb1-fc26-4b6b-9aeb-b2262e75f80c",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "724a89ee-7e8f-41a5-991d-a37f90d1fac9",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:18 PM"
+    },
+    {
+      "id": "161f19ec-abc6-4e72-8fe8-43d12091b356",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "1173c3dd-a766-4801-b6b6-3af5b7491e13",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "3f886095-0862-4411-a593-26248530cff3",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "c3e6befc-ec8e-440f-bfd0-e20f3c21d727",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "de21e178-6919-4299-9f76-3b47bb38a5bf",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "95c2ef17-e4e3-40e4-9617-8e0d7f2624a1",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "6e5ff1a0-f553-4f82-b1e8-a80bc0753477",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "1337e1a1-3a2b-4979-95bc-6cb1dc84ab27",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "c4c22696-43e9-4cb3-a6fe-6626c8837a86",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "d865d88b-b831-4b9b-9556-8a3998dddaf5",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "5563b1d7-f02e-43eb-954b-27969c7d62a2",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "ccf7e20d-7e06-4820-a4a1-70528f4f1bf4",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "78debc8f-87d6-4df3-9c17-a4e0b797a136",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:19 PM"
+    },
+    {
+      "id": "ca661408-3d9c-4c8a-bd75-c749fce961ec",
+      "reading": "1",
+      "date": "03/14/19",
+      "time": "3:20 PM"
+    }
+  ],
+  "halleffect": [
+    {
+      "id": 1,
+      "reading": 1,
+      "date": "3/14/2019",
+      "time": "9:54 AM"
     }
   ]
 }

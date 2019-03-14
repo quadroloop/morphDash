@@ -139,7 +139,7 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="us">0 cm</h1>
+                	<h1 class="value my-3"><span id="us">0</span> cm</h1>
                     </center>
                   <h4 class="card-title">Distance</h4>
                   <p class="card-category">
@@ -178,7 +178,7 @@
             <!-- sound chart -->
              <div class="col-md-8">
             	<div class="card p-3">
-                 <h4 class="text-muted"><i class="fa fa-line-chart text-info"></i> Sound Sensor</h4>
+                 <h4 class="text-muted"><i class="fa fa-line-chart text-info"></i> Sound Sensor: <span id="ssx">0</span></h4>
                     <center>
                         <canvas id="soundchart" style="width:100%; height:200px"></canvas>
                     </center>
@@ -238,7 +238,7 @@
                 </div>
                 <div class="card-body">
                 	<center>
-                	<h1 class="value my-3" id="rd">☔ 0</h1>
+                	<h1 class="value my-3">☔ <span id="rd">0</span></h1>
                     </center>
                   <h4 class="card-title">Rain Drop</h4>
                   <p class="card-category">
@@ -261,9 +261,9 @@
                 </div>
                 <div class="card-body">
                   <center>
-                  <h1 class="value my-3">☟ <span id="he">0</span></h1>
+                  <h1 class="value my-3"><span id="he">Normal</span></h1>
                     </center>
-                  <h4 class="card-title">Magnet</h4>
+                  <h4 class="card-title">Magnetic</h4>
                   <p class="card-category">
                       Responds to magnetic fields 
                   </p>
@@ -322,13 +322,6 @@
                         <th>Time</th>
                       </thead>
                       <tbody id="th">
-                           <tr>
-                             <td>1</td>
-                             <td>50%</td>
-                             <td>32.2 ℃</td>
-                             <td>11/22/33</td>
-                             <td>11:30 AM</td>
-                          </tr>
                     </tbody>
                     </table>
                   </div>
@@ -404,7 +397,7 @@
                         <th>Date</th>
                         <th>Time</th>
                       </thead>
-                      <tbody id="th">
+                      <tbody id="ss">
                            <tr>
                              <td>1</td>
                              <td>44.3</td>
@@ -431,7 +424,7 @@
                         <th>Date</th>
                         <th>Time</th>                     
                       </thead>
-                      <tbody id="th">
+                      <tbody id="ts">
                            <tr>
                              <td>1</td>
                              <td>22.3</td>
@@ -452,13 +445,13 @@
                 <div class="card-body">
                   <div class="table-responsive">
                     <table class="table">
-                      <thead class=" text-primary">
+                      <thead class="text-primary">
                         <th>Log No.</th>
                         <th> Sensor Reading</th>
                         <th>Date</th>
                         <th>Time</th>
                       </thead>
-                      <tbody id="th">
+                      <tbody id="fsx">
                            <tr>
                              <td>1</td>
                              <td>50%</td>
@@ -485,7 +478,7 @@
                         <th>Date</th>
                         <th>Time</th>
                       </thead>
-                      <tbody id="th">
+                      <tbody id="rs">
                            <tr>
                              <td>1</td>
                              <td>50%</td>
@@ -500,7 +493,7 @@
 
                 <div class="card mb-3">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title ">Magnet</h4>
+                  <h4 class="card-title ">Magnetic Sensor</h4>
                   <p class="card-category"> Hall Effect Magnetic Sensor</p>
                 </div>
                 <div class="card-body">
@@ -512,7 +505,7 @@
                         <th>Date</th>
                         <th>Time</th>
                       </thead>
-                      <tbody id="th">
+                      <tbody id="ms">
                            <tr>
                              <td>1</td>
                              <td>50%</td>
@@ -539,7 +532,7 @@
                         <th>Date</th>
                         <th>Time</th>
                       </thead>
-                      <tbody id="th">
+                      <tbody id="lsx">
                            <tr>
                              <td>1</td>
                              <td>50%</td>
@@ -584,6 +577,8 @@
  
   <!-- <script src="./js/mdb.js"></script> -->
   <script src="./js/smoothie.js"></script>
+  <script src="./js/axios.js"></script>
+  <script src="./js/socket.io.js"></script>
   <script src="./js/morphDash.js"></script>
 
 </body>
