@@ -28,6 +28,6 @@ There are a lot more features that can be added to morphDash.
 
 ### Other Info:
  > Creative Tim 
- >Dashboard UI template: Material Bootstrap Dashboad (Dark Edition)
+ >Dashboard UI template: Material Bootstrap Dashboard (Dark Edition)
  >(unofficial)Logo is a png icon from Google Images
  
